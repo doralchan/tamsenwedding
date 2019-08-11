@@ -19,7 +19,7 @@ class Radio extends React.Component {
         { this.props.children }
         <style jsx>{`
           .radio {
-            margin-bottom: 16px;
+            margin-bottom: 24px;
           }
           .radio-label {
             margin-bottom: 8px;

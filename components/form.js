@@ -14,7 +14,6 @@ class Form extends React.Component {
       <form
         name='rsvp'
         method='POST'
-        netlify-honeypot='bot-field'
         data-netlify='true'
         className={ formClasses }
         >
@@ -26,7 +25,7 @@ class Form extends React.Component {
           .form {
             display: flex;
             flex-direction: column;
-            width: 700px;
+            width: 500px;
             margin-bottom: 48px;
           }
           .hidden {

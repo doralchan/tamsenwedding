@@ -12,7 +12,6 @@ class Input extends React.Component {
   static defaultProps = {
     labelName: 'Label',
     placeholder: 'Field'
-
   }
 
   render() {
@@ -30,7 +29,7 @@ class Input extends React.Component {
           .input {
             display: flex;
             flex-direction: column;
-            margin-bottom: 16px;
+            margin-bottom: 24px;
             flex: 1;
           }
           .input-label {

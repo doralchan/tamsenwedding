@@ -13,16 +13,19 @@
       "static/runtime/main.js": 5,
       "static/k-dpKIkKY8bJhabyfhu-2/pages/_app.js": 6,
       "static/k-dpKIkKY8bJhabyfhu-2/pages/_error.js": 7,
-      "static/k-dpKIkKY8bJhabyfhu-2/pages/index.js": 8
+      "static/k-dpKIkKY8bJhabyfhu-2/pages/index.js": 8,
+      "static/dl8Kbq_ACXG31fT7OVbcy/pages/_app.js": 2,
+      "static/dl8Kbq_ACXG31fT7OVbcy/pages/_error.js": 3,
+      "static/dl8Kbq_ACXG31fT7OVbcy/pages/index.js": 4
     },
     "bySource": {},
     "usedIds": [
       0,
       1,
-      5,
-      6,
-      7,
-      8
+      2,
+      3,
+      4,
+      5
     ]
   }
 }

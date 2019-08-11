@@ -11,13 +11,13 @@ class Home extends React.Component {
         <div className=''>
           <h1>RSVP</h1>
           <Form>
-            <Input labelName='Full Name' placeholder='Full Name' />
-            <Radio labelName='RSVP'>
+            <Input inputName='name' labelName='Full Name' placeholder='Full Name' />
+            <Radio inputName='attendance' labelName='RSVP'>
               <Radio.Option value='Happily accepting' inputName='attendance' />
               <Radio.Option value='Regretfully declining' inputName='attendance'/>
             </Radio>
-            <Input labelName='Number of Guests Attending Including Yourself' placeholder='0' />
-            <Checkbox labelName='Mark Special Preferences'>
+            <Input inputName='guests' labelName='Number of Guests Attending Including Yourself' placeholder='0' />
+            <Checkbox inputName='preferences' labelName='Mark Any Special Preferences'>
               <Checkbox.Option value='Vegetarian' />
               <Checkbox.Option value='Vegan' />
             </Checkbox>
@@ -25,11 +25,13 @@ class Home extends React.Component {
           </Form>
         </div>
         <style jsx global>{`
+          @import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
           body {
+            font-family: 'Lexend Deca', sans-serif;
+            font-size: 16px;
             margin: 0;
             padding: 0;
             height: 100vh;
-            font-size: 16px;
           }
           .container {
             min-height: 100vh;

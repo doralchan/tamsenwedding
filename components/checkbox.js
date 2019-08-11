@@ -17,7 +17,7 @@ class Checkbox extends React.Component {
           .checkbox {
             display: flex;
             flex-direction: column;
-            margin-bottom: 16px;
+            margin-bottom: 24px;
           }
           .checkbox-label {
             margin-bottom: 8px;
@@ -31,6 +31,7 @@ class Checkbox extends React.Component {
 Checkbox.Option = class Option extends React.Component {
   static propTypes = {
     children: PropTypes.node,
+    inputName: PropTypes.string,
     value: PropTypes.string,
     className: PropTypes.string,
     checked: PropTypes.bool
@@ -44,7 +45,7 @@ Checkbox.Option = class Option extends React.Component {
         >
         <input
           type='checkbox'
-          name={ this.props.name }
+          name={ this.props.inputName }
           value={ this.props.value }
           id={ this.props.value }
           className='checkbox-option-input'
