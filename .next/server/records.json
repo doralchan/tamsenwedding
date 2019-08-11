@@ -15,6 +15,7 @@
   },
   "chunks": {
     "byName": {
+<<<<<<< HEAD
       "static/vTLgh8LLXbpyep9vyT96G/pages/_app.js": 0,
       "static/vTLgh8LLXbpyep9vyT96G/pages/_document.js": 1,
       "static/vTLgh8LLXbpyep9vyT96G/pages/_error.js": 2,
@@ -35,6 +36,36 @@
       "static/2XBe3-mDtmvhA3L93f6rg/pages/_document.js": 1,
       "static/2XBe3-mDtmvhA3L93f6rg/pages/_error.js": 2,
       "static/2XBe3-mDtmvhA3L93f6rg/pages/index.js": 3
+=======
+      "static/ATzrYkL4N-__Os9slQddC/pages/_app.js": 0,
+      "static/ATzrYkL4N-__Os9slQddC/pages/_document.js": 1,
+      "static/ATzrYkL4N-__Os9slQddC/pages/_error.js": 2,
+      "static/ATzrYkL4N-__Os9slQddC/pages/index.js": 3,
+      "static/k-dpKIkKY8bJhabyfhu-2/pages/_app.js": 4,
+      "static/k-dpKIkKY8bJhabyfhu-2/pages/_document.js": 5,
+      "static/k-dpKIkKY8bJhabyfhu-2/pages/_error.js": 6,
+      "static/k-dpKIkKY8bJhabyfhu-2/pages/index.js": 7,
+      "static/dl8Kbq_ACXG31fT7OVbcy/pages/_app.js": 0,
+      "static/dl8Kbq_ACXG31fT7OVbcy/pages/_document.js": 1,
+      "static/dl8Kbq_ACXG31fT7OVbcy/pages/_error.js": 2,
+      "static/dl8Kbq_ACXG31fT7OVbcy/pages/index.js": 3,
+      "static/XQ5sVIAnmPo6ja6lM_04b/pages/_app.js": 4,
+      "static/XQ5sVIAnmPo6ja6lM_04b/pages/_document.js": 5,
+      "static/XQ5sVIAnmPo6ja6lM_04b/pages/_error.js": 6,
+      "static/XQ5sVIAnmPo6ja6lM_04b/pages/index.js": 7,
+      "static/051yN-ccEomPijp2lzdTU/pages/_app.js": 0,
+      "static/051yN-ccEomPijp2lzdTU/pages/_document.js": 1,
+      "static/051yN-ccEomPijp2lzdTU/pages/_error.js": 2,
+      "static/051yN-ccEomPijp2lzdTU/pages/index.js": 3,
+      "static/22RAJtRFZlqeBKh9UxzHS/pages/_app.js": 4,
+      "static/22RAJtRFZlqeBKh9UxzHS/pages/_document.js": 5,
+      "static/22RAJtRFZlqeBKh9UxzHS/pages/_error.js": 6,
+      "static/22RAJtRFZlqeBKh9UxzHS/pages/index.js": 7,
+      "static/6pCJj6LG-NkmeINgg1lqB/pages/_app.js": 0,
+      "static/6pCJj6LG-NkmeINgg1lqB/pages/_document.js": 1,
+      "static/6pCJj6LG-NkmeINgg1lqB/pages/_error.js": 2,
+      "static/6pCJj6LG-NkmeINgg1lqB/pages/index.js": 3
+>>>>>>> gh-pages
     },
     "bySource": {},
     "usedIds": [
