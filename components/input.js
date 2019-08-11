@@ -6,7 +6,8 @@ class Input extends React.Component {
     labelName: PropTypes.string.isRequired,
     placeholder: PropTypes.string.isRequired,
     inputName: PropTypes.string,
-    typeName: PropTypes.string
+    typeName: PropTypes.string,
+    change: PropTypes.func
   }
 
   static defaultProps = {
@@ -23,6 +24,8 @@ class Input extends React.Component {
           className='input-text'
           name={ this.props.inputName }
           placeholder={ this.props.placeholder }
+          value={ this.props.value }
+          onChange={ this.props.change }
           required
         />
         <style jsx>{`

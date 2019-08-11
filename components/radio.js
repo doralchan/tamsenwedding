@@ -36,7 +36,8 @@ Radio.Option = class Option extends React.Component {
     inputName: PropTypes.string,
     value: PropTypes.string,
     className: PropTypes.string,
-    checked: PropTypes.bool
+    checked: PropTypes.bool,
+    change: PropTypes.func
   }
 
   render() {
@@ -52,6 +53,7 @@ Radio.Option = class Option extends React.Component {
           value={ this.props.value }
           id={ this.props.value }
           defaultChecked={ this.props.checked }
+          onChange={ this.props.change }
           />
         <span className='radio-option-label'>
           { this.props.value }

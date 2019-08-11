@@ -1,26 +1,49 @@
 import Form from '../components/form';
 import Input from '../components/input';
 import Radio from '../components/radio';
-import Checkbox from '../components/checkbox';
 import Button from '../components/button';
 
+const encode = (data) => {
+  return Object.keys(data)
+    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
+}
+
 class Home extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { name: "", attendance: "", guests: "", preferences: "" };
+  }
+
+  handleSubmit = e => {
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "rsvp", ...this.state })
+    })
+      .then(() => alert("Success!"))
+      .catch(error => alert(error));
+
+    e.preventDefault();
+  };
+
+  handleChange = e => this.setState({ [e.target.name]: e.target.value });
+
   render() {
+    const { name, attendance, guests, preferences } = this.state;
+
     return (
       <div className='container'>
-        <div className=''>
-          <h1>RSVP</h1>
-          <Form>
-            <Input inputName='name' labelName='Full Name' placeholder='Full Name' />
-            <Radio inputName='attendance' labelName='RSVP'>
-              <Radio.Option value='Happily accepting' inputName='attendance' />
-              <Radio.Option value='Regretfully declining' inputName='attendance'/>
+        <div>
+          <h1>Répondez s'il vous plaît</h1>
+          <Form submit={ this.handleSubmit }>
+            <Input change={ this.handleChange } inputName='name' labelName='Full Name' placeholder='Full Name' />
+            <Radio inputName='attendance' labelName='Attendance'>
+              <Radio.Option change={ this.handleChange } value='Happily accepting' inputName='attendance' />
+              <Radio.Option change={ this.handleChange } value='Regretfully declining' inputName='attendance'/>
             </Radio>
-            <Input inputName='guests' labelName='Number of Guests Attending Including Yourself' placeholder='0' />
-            <Checkbox inputName='preferences' labelName='Mark Any Special Preferences'>
-              <Checkbox.Option value='Vegetarian' />
-              <Checkbox.Option value='Vegan' />
-            </Checkbox>
+            <Input change={ this.handleChange } inputName='guests' labelName='# of Guests Attending' placeholder='0' />
+            <Input change={ this.handleChange } inputName='preferences' labelName='# of Vegetarians or Vegans' placeholder='0' />
             <Button cta='Submit' />
           </Form>
         </div>

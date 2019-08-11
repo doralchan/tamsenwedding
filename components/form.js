@@ -4,7 +4,8 @@ import classNames from 'classnames';
 class Form extends React.Component {
   static propTypes = {
     children: PropTypes.node.isRequired,
-    className: PropTypes.string
+    className: PropTypes.string,
+    submit: PropTypes.func
   }
 
   render() {
@@ -15,6 +16,7 @@ class Form extends React.Component {
         name='rsvp'
         method='POST'
         data-netlify='true'
+        onSubmit={ this.props.submit }
         className={ formClasses }
         >
         <span className='hidden'>
