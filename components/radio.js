@@ -51,8 +51,6 @@ Radio.Option = class Option extends React.Component {
           className='radio-option-input'
           name={ this.props.inputName }
           value={ this.props.value }
-          id={ this.props.value }
-          defaultChecked={ this.props.checked }
           onChange={ this.props.change }
           />
         <span className='radio-option-label'>

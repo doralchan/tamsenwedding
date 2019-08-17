@@ -31,7 +31,7 @@ class Home extends React.Component {
 
   renderHoneypot() {
     return (
-      <form name='rsvp' netlify netlify-honeypot='bot-field' hidden>
+      <form name='rsvp' netlify-honeypot='bot-field' hidden>
         <input type='text' name='name' />
         <input type='text' name='guests' />
       </form>
@@ -46,7 +46,7 @@ class Home extends React.Component {
         { this.renderHoneypot() }
         <div>
           <h1>Répondez s'il vous plaît</h1>
-          <Form submit={ this.handleSubmit }>
+          <Form submit={ this.handleSubmit } data-netlify='true'>
             <Input change={ this.handleChange } inputName='name' labelName='Full Name' placeholder='Full Name' />
             <Radio inputName='attendance' labelName='Attendance'>
               <Radio.Option change={ this.handleChange } value='Happily Accepting' inputName='attendance' />
