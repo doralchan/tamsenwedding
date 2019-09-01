@@ -43,6 +43,7 @@ class Input extends React.Component {
             height: 50px;
             font-size: inherit;
             padding: 0 16px;
+            border: 1px solid var(--color-gray-dark);
           }
           .input-text:focus {
             outline: none;

@@ -16,13 +16,16 @@ class Radio extends React.Component {
     return (
       <div className='radio'>
         <div className='radio-label'>{ this.props.labelName }</div>
-        { this.props.children }
+        <div className='radio-options'>{ this.props.children }</div>
         <style jsx>{`
           .radio {
             margin-bottom: 24px;
           }
           .radio-label {
             margin-bottom: 8px;
+          }
+          .radio-options {
+            display: flex;
           }
         `}</style>
       </div>
@@ -62,6 +65,7 @@ Radio.Option = class Option extends React.Component {
           .radio-option {
             display: flex;
             margin-bottom: 8px;
+            flex: 1;
           }
         `}</style>
       </label>

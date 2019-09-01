@@ -1,6 +1,7 @@
 import Form from '../components/form';
 import Input from '../components/input';
 import Radio from '../components/radio';
+import TextArea from '../components/textarea';
 import Button from '../components/button';
 
 const encode = (data) => {
@@ -31,7 +32,7 @@ class Home extends React.Component {
 
   renderHoneypot() {
     return (
-      <form name='rsvp' netlify netlify-honeypot='bot-field' hidden>
+      <form name='rsvp' netlify='true' netlify-honeypot='bot-field' hidden>
         <input type='text' name='name' />
         <input type='text' name='guests' />
       </form>
@@ -45,16 +46,15 @@ class Home extends React.Component {
       <div className='container'>
         { this.renderHoneypot() }
         <div>
-          <h1>Répondez s'il vous plaît</h1>
           <Form submit={ this.handleSubmit }>
             <Input change={ this.handleChange } inputName='name' labelName='Full Name' placeholder='Full Name' />
             <Radio inputName='attendance' labelName='Attendance'>
-              <Radio.Option change={ this.handleChange } value='Happily Accepting' inputName='attendance' />
+              <Radio.Option change={ this.handleChange } value='Joyfully Accepting' inputName='attendance' />
               <Radio.Option change={ this.handleChange } value='Regretfully Declining' inputName='attendance'/>
             </Radio>
-            <Input change={ this.handleChange } inputName='guests' labelName='# of Guests Attending' placeholder='0' />
-            <Input change={ this.handleChange } inputName='preferences' labelName='# of Vegetarians or Vegans' placeholder='0' />
-            <Button cta='Submit' />
+            <Input change={ this.handleChange } inputName='guests' labelName='# of Guests' placeholder='0' />
+            <TextArea change={ this.handleChange } labelName='Dietary Restrictions' />
+            <Button cta='Submit RSVP' />
           </Form>
         </div>
         <style jsx global>{`
@@ -71,6 +71,14 @@ class Home extends React.Component {
             display: flex;
             justify-content: center;
             align-items: center;
+          }
+          :root {
+            --color-gray-dark: #BABABA;
+            --color-gray-light: #F3F3F3;
+            --color-green-dark: #29341B;
+            --color-green-light: #9DB580;
+            --color-black: #000000;
+            --color-white: #FFFFFF;
           }
         `}</style>
       </div>

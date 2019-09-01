@@ -12,29 +12,32 @@ class Form extends React.Component {
     const formClasses = classNames('form', this.props.className);
 
     return (
-      <form
-        name='rsvp'
-        method='POST'
-        data-netlify='true'
-        onSubmit={ this.props.submit }
-        className={ formClasses }
-        >
-        <span className='hidden'>
-          <label><input name='bot=field' /></label>
-        </span>
-        { this.props.children }
-        <style jsx>{`
-          .form {
-            display: flex;
-            flex-direction: column;
-            width: 500px;
-            margin-bottom: 48px;
-          }
-          .hidden {
-            display: none;
-          }
-        `}</style>
-      </form>
+      <div>
+        <h1>RSVP</h1>
+        <form
+          name='rsvp'
+          method='POST'
+          data-netlify='true'
+          onSubmit={ this.props.submit }
+          className={ formClasses }
+          >
+          <span className='hidden'>
+            <label><input name='bot=field' /></label>
+          </span>
+          { this.props.children }
+          <style jsx>{`
+            .form {
+              display: flex;
+              flex-direction: column;
+              min-width: 500px;
+              margin-bottom: 48px;
+            }
+            .hidden {
+              display: none;
+            }
+          `}</style>
+        </form>
+      </div>
     )
   }
 

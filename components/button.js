@@ -32,11 +32,11 @@ class Button extends React.Component {
             outline: none;
           }
           .btn:hover {
-
+            cursor: pointer;
           }
           .btn {
-            background-color: black;
-            color: white;
+            background-color: var(--color-black);
+            color: var(--color-white);
           }
         `}</style>
       </button>
