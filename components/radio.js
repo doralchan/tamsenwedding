@@ -64,8 +64,49 @@ Radio.Option = class Option extends React.Component {
         <style jsx>{`
           .radio-option {
             display: flex;
-            margin-bottom: 8px;
+            cursor: pointer;
+            user-select: none;
             flex: 1;
+          }
+          .radio-option-input {
+            display: none;
+          }
+          .radio-option-input + span {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            padding-left: 24px;
+            line-height: 24px;
+          }
+          .radio-option-input + span:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 4px;
+            left: 0;
+            border-radius: 50%;
+            width: 16px;
+            height: 16px;
+            border: 1px solid var(--color-gray-dark);
+            background: var(--color-white);
+          }
+          .radio-option-input + span:after {
+            content: '';
+            display: block;
+            width: 10px;
+            height: 10px;
+            background: var(--color-green-dark);
+            position: absolute;
+            border-radius: 50%;
+            top: 8px;
+            left: 4px;
+            opacity: 0;
+            transform: scale(0,0);
+            transition: all 100ms ease-in-out;
+          }
+          .radio-option-input:checked + span:after {
+            opacity: 1;
+            transform: scale(1,1);
           }
         `}</style>
       </label>

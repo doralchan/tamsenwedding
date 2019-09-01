@@ -41,7 +41,7 @@ class TextArea extends React.Component {
           .input-textarea {
             height: 80px;
             font-size: inherit;
-            padding: 8px 16px;
+            padding: 10px 16px;
             line-height: 24px;
             resize: none;
             border: 1px solid var(--color-gray-dark);
