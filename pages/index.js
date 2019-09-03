@@ -3,7 +3,6 @@ import Input from '../components/input';
 import Radio from '../components/radio';
 import TextArea from '../components/textarea';
 import Button from '../components/button';
-import Section from '../components/section';
 
 import Intro from './_intro';
 import Gallery from './_gallery';
@@ -54,19 +53,17 @@ class Home extends React.Component {
         <div className='container-sections'>
           <Intro />
           <Gallery />
-          <Section>
-            <Form submit={ this.handleSubmit } formTitle='RSVP'>
-              <Input change={ this.handleChange } inputName='name' labelName='Full Name' placeholder='Full Name' />
-              <Radio inputName='attendance' labelName='Attendance'>
-                <Radio.Option change={ this.handleChange } value='Joyfully Attending' inputName='attendance' />
-                <Radio.Option change={ this.handleChange } value='Regretfully Declining' inputName='attendance'/>
-              </Radio>
-              <Input change={ this.handleChange } inputName='guests' labelName='# of Guests' placeholder='0' />
-              <TextArea change={ this.handleChange } inputName='diet' labelName='Dietary Restrictions' placeholder='Enter Description' />
-              <Button cta='Submit RSVP' />
-            </Form>
-            <Registry />
-          </Section>
+          <Form submit={ this.handleSubmit } formTitle='RSVP'>
+            <Input change={ this.handleChange } inputName='name' labelName='Full Name' placeholder='Full Name' />
+            <Radio inputName='attendance' labelName='Attendance'>
+              <Radio.Option change={ this.handleChange } value='Joyfully Attending' inputName='attendance' />
+              <Radio.Option change={ this.handleChange } value='Regretfully Declining' inputName='attendance'/>
+            </Radio>
+            <Input change={ this.handleChange } inputName='guests' labelName='# of Guests' placeholder='0' />
+            <TextArea change={ this.handleChange } inputName='diet' labelName='Dietary Restrictions' placeholder='Enter Description' />
+            <Button cta='Submit RSVP' />
+          </Form>
+          <Registry />
           <Footer />
         </div>
         <style jsx global>{`
@@ -115,13 +112,22 @@ class Home extends React.Component {
             font-size: 1em;
           }
           .container {
-            min-height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
           }
-          .container-section {
+          .container-sections {
             display: grid;
+            max-width: 1000px;
+            grid-template-columns: 2fr 1fr;
+            grid-row-gap: 80px;
+            grid-column-gap: 60px;
+            grid-template-areas:
+              "intro intro"
+              "gallery gallery"
+              "form registry"
+              "footer footer"
+            ;
           }
         `}</style>
       </div>

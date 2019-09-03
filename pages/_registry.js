@@ -13,6 +13,11 @@ class Registry extends React.Component {
           <List.Item>Crate & Barrel</List.Item>
           <List.Item>Amazon</List.Item>
         </List>
+        <style jsx>{`
+          .registry {
+            grid-area: registry;
+          }
+        `}</style>
       </div>
     )
   }

@@ -29,8 +29,7 @@ class Form extends React.Component {
           .form {
             display: flex;
             flex-direction: column;
-            min-width: 500px;
-            margin-bottom: 48px;
+            grid-area: form;
           }
           .hidden {
             display: none;
