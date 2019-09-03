@@ -25,8 +25,13 @@ class Button extends React.Component {
         <style jsx>{`
           .btn {
             height: 60px;
+            font-family: inherit;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
             border: 0;
-            font-size: inherit;
+            text-rendering: optimizeLegibility;
+            font-size: 0.9em;
           }
           .btn:focus {
             outline: none;

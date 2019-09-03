@@ -3,6 +3,12 @@ import Input from '../components/input';
 import Radio from '../components/radio';
 import TextArea from '../components/textarea';
 import Button from '../components/button';
+import Section from '../components/section';
+
+import Intro from './_intro';
+import Gallery from './_gallery';
+import Registry from './_registry';
+import Footer from './_footer';
 
 const encode = (data) => {
   return Object.keys(data)
@@ -45,33 +51,26 @@ class Home extends React.Component {
     return (
       <div className='container'>
         { this.renderHoneypot() }
-        <div>
-          <Form submit={ this.handleSubmit }>
-            <Input change={ this.handleChange } inputName='name' labelName='Full Name' placeholder='Full Name' />
-            <Radio inputName='attendance' labelName='Attendance'>
-              <Radio.Option change={ this.handleChange } value='Joyfully Accepting' inputName='attendance' />
-              <Radio.Option change={ this.handleChange } value='Regretfully Declining' inputName='attendance'/>
-            </Radio>
-            <Input change={ this.handleChange } inputName='guests' labelName='# of Guests' placeholder='0' />
-            <TextArea change={ this.handleChange } labelName='Dietary Restrictions' placeholder='Enter Description' />
-            <Button cta='Submit RSVP' />
-          </Form>
+        <div className='container-sections'>
+          <Intro />
+          <Gallery />
+          <Section>
+            <Form submit={ this.handleSubmit } formTitle='RSVP'>
+              <Input change={ this.handleChange } inputName='name' labelName='Full Name' placeholder='Full Name' />
+              <Radio inputName='attendance' labelName='Attendance'>
+                <Radio.Option change={ this.handleChange } value='Joyfully Attending' inputName='attendance' />
+                <Radio.Option change={ this.handleChange } value='Regretfully Declining' inputName='attendance'/>
+              </Radio>
+              <Input change={ this.handleChange } inputName='guests' labelName='# of Guests' placeholder='0' />
+              <TextArea change={ this.handleChange } inputName='diet' labelName='Dietary Restrictions' placeholder='Enter Description' />
+              <Button cta='Submit RSVP' />
+            </Form>
+            <Registry />
+          </Section>
+          <Footer />
         </div>
         <style jsx global>{`
-          @import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
-          body {
-            font-family: 'Lexend Deca', sans-serif;
-            font-size: 16px;
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-          }
-          .container {
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-          }
+          @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
           :root {
             --color-gray-dark: #BABABA;
             --color-gray-light: #F3F3F3;
@@ -79,6 +78,50 @@ class Home extends React.Component {
             --color-green-light: #9DB580;
             --color-black: #000000;
             --color-white: #FFFFFF;
+          }
+          body {
+            font-family: 'Value', sans-serif;
+            font-size: 16px;
+            color: var(--color-green-dark);
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+          }
+          h1, h2, h3, h4, h5, h6 {
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin: 0;
+          }
+          h1, h2, h3, h4, h5 {
+            font-family: 'Libre Baskerville', serif;
+            font-weight: 300;
+          }
+          h1 {
+            font-size: 3.052em;
+          }
+          h2 {
+            font-size: 2.441em;
+          }
+          h3 {
+            font-size: 1.953em;
+          }
+          h4 {
+            font-size: 1.563em;
+          }
+          h5 {
+            font-size: 1.25em;
+          }
+          h6 {
+            font-size: 1em;
+          }
+          .container {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .container-section {
+            display: grid;
           }
         `}</style>
       </div>

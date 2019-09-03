@@ -7,16 +7,14 @@
     "byName": {
       "commons": 0,
       "static/runtime/webpack.js": 1,
-      "static/XrZnvqhZ43A9c-qeFMctu/pages/_app.js": 2,
-      "static/XrZnvqhZ43A9c-qeFMctu/pages/_error.js": 3,
-      "static/XrZnvqhZ43A9c-qeFMctu/pages/index.js": 4,
-      "static/runtime/main.js": 5,
-      "static/EJpk24YBFlsGwYRmvNAfJ/pages/_app.js": 6,
-      "static/EJpk24YBFlsGwYRmvNAfJ/pages/_error.js": 7,
-      "static/EJpk24YBFlsGwYRmvNAfJ/pages/index.js": 8,
-      "static/f1J7KZva9V_bEM_ppTemt/pages/_app.js": 2,
-      "static/f1J7KZva9V_bEM_ppTemt/pages/_error.js": 3,
-      "static/f1J7KZva9V_bEM_ppTemt/pages/index.js": 4
+      "static/runtime/main.js": 2,
+      "static/wIaGZ2W1PY7fY1-_GG7Pj/pages/_app.js": 3,
+      "static/wIaGZ2W1PY7fY1-_GG7Pj/pages/_error.js": 4,
+      "static/wIaGZ2W1PY7fY1-_GG7Pj/pages/_footer.js": 5,
+      "static/wIaGZ2W1PY7fY1-_GG7Pj/pages/_gallery.js": 6,
+      "static/wIaGZ2W1PY7fY1-_GG7Pj/pages/_intro.js": 7,
+      "static/wIaGZ2W1PY7fY1-_GG7Pj/pages/_registry.js": 8,
+      "static/wIaGZ2W1PY7fY1-_GG7Pj/pages/index.js": 9
     },
     "bySource": {},
     "usedIds": [
@@ -25,7 +23,11 @@
       2,
       3,
       4,
-      5
+      5,
+      6,
+      7,
+      8,
+      9
     ]
   }
 }

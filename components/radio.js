@@ -22,6 +22,10 @@ class Radio extends React.Component {
             margin-bottom: 24px;
           }
           .radio-label {
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-weight: 600;
             margin-bottom: 8px;
           }
           .radio-options {

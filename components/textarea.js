@@ -23,10 +23,11 @@ class TextArea extends React.Component {
           className='input-textarea'
           name={ this.props.inputName }
           placeholder={ this.props.placeholder }
-          value={ this.props.value }
           onChange={ this.props.change }
           required
-        />
+        >
+          { this.props.value }
+        </textarea>
         <style jsx>{`
           .input {
             display: flex;
@@ -35,7 +36,10 @@ class TextArea extends React.Component {
             flex: 1;
           }
           .input-label {
-            font-size: inherit;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-weight: 600;
             margin-bottom: 8px;
           }
           .input-textarea {
