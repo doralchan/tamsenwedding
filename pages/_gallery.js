@@ -18,30 +18,37 @@ class Gallery extends React.Component {
           }
           .gallery-grid {
             display: grid;
-            grid-gap: 20px;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 10px;
+            grid-template-columns: repeat(auto-fill, minmax(22%, 1fr));
+            grid-auto-rows: 1fr;
+          }
+          .gallery-grid:before {
+            content: '';
+            width: 0;
+            padding-bottom: 100%;
+            grid-row: 1/1;
+            grid-column: 1/1;
           }
           .grid-small,
           .grid-large {
             background-color: var(--color-gray-light);
             overflow: hidden;
-            display: flex;
+            position: relative;
           }
           .grid-large {
             grid-column: 1/3;
             grid-row: 1/3;
-            max-height: 490px;
-            justify-content: center;
           }
+          .grid-small img,
           .grid-large img {
-            height: 550px;
-          }
-          .grid-small {
-            align-items: flex-end;
-            height: 235px;
+            position: absolute;
+            bottom: 0;
           }
           .grid-small img {
             width: 100%;
+          }
+          .grid-large img {
+            height: 100%;
           }
         `}</style>
       </section>

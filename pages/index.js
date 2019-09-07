@@ -67,7 +67,7 @@ class Home extends React.Component {
           <Footer />
         </div>
         <style jsx global>{`
-          @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+          @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Poppins:300,600&display=swap');
           :root {
             --color-gray-dark: #BABABA;
             --color-gray-light: #F3F3F3;
@@ -77,7 +77,8 @@ class Home extends React.Component {
             --color-white: #FFFFFF;
           }
           body {
-            font-family: 'Value', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
             font-size: 16px;
             color: var(--color-green-dark);
             margin: 0;
@@ -109,7 +110,8 @@ class Home extends React.Component {
             font-size: 1.25em;
           }
           h6 {
-            font-size: 1em;
+            font-size: 0.9em;
+            font-weight: 600;
           }
           .container {
             display: flex;
@@ -118,15 +120,14 @@ class Home extends React.Component {
           }
           .container-sections {
             display: grid;
-            max-width: 1000px;
-            grid-template-columns: 2fr 1fr;
-            grid-row-gap: 80px;
-            grid-column-gap: 60px;
+            grid-template-columns: 1fr 4fr 2fr 2fr 1fr;
+            grid-row-gap: 100px;
+            grid-column-gap: 10px;
             grid-template-areas:
-              "intro intro"
-              "gallery gallery"
-              "form registry"
-              "footer footer"
+              ". intro intro intro ."
+              ". gallery gallery gallery ."
+              ". form . registry ."
+              "footer footer footer footer footer"
             ;
           }
         `}</style>
