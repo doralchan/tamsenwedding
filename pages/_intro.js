@@ -22,7 +22,7 @@ class Intro extends React.Component {
             justify-content: center;
             align-items: center;
             text-align: center;
-            height: 70vh;
+            min-height: 70vh;
           }
           .intro-header {
             padding-top: 120px;

@@ -1188,75 +1188,86 @@ function (_React$Component) {
   }
 
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Footer, [{
-    key: "render",
-    value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("footer", {
-        className: "jsx-2780902404" + " " + 'footer',
+    key: "renderAccomodations",
+    value: function renderAccomodations() {
+      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 7
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-2780902404" + " " + 'footer-content',
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h6", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 8
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        className: "jsx-2780902404",
+      }, "Accommodations"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 9
         },
         __self: this
-      }, "Travel Details"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-2780902404",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 10
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h6", {
-        className: "jsx-2780902404",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 11
-        },
-        __self: this
-      }, "Accommodations"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-2780902404",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 12
-        },
-        __self: this
-      }, "Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra. Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-2780902404" + " " + 'margin-bottom-24px',
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h6", {
-        className: "jsx-2780902404",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        },
-        __self: this
-      }, "Parking & Transportation"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-2780902404",
+      }, "Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra. Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion"));
+    }
+  }, {
+    key: "renderParkingTransportation",
+    value: function renderParkingTransportation() {
+      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 18
         },
         __self: this
-      }, "Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra. Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
-        id: "2780902404",
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h6", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
         __self: this
-      }, ".footer.jsx-2780902404{grid-area:footer;display:grid;grid-template-columns:1fr 8fr 4fr 1fr;background-color:var(--color-green-dark);height:60vh;text-rendering:optimizeLegibility;color:var(--color-green-light);}.footer.jsx-2780902404 h4.jsx-2780902404,.footer.jsx-2780902404 h6.jsx-2780902404{color:var(--color-white);}.footer-content.jsx-2780902404{grid-column:2/3;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kb3JhY2hhbi93b3Jrc3BhY2UvdGFtc2Vud2VkZGluZy9wYWdlcy9fZm9vdGVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXNCb0IsQUFHOEIsQUFVUSxBQUdULGdCQUNsQixDQWJlLFFBVWYsS0FUd0Msc0NBQ0cseUNBQzdCLFlBQ3NCLGtDQUNILCtCQUNqQyIsImZpbGUiOiIvVXNlcnMvZG9yYWNoYW4vd29ya3NwYWNlL3RhbXNlbndlZGRpbmcvcGFnZXMvX2Zvb3Rlci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcyc7XG5pbXBvcnQgY2xhc3NOYW1lcyBmcm9tICdjbGFzc25hbWVzJztcblxuY2xhc3MgRm9vdGVyIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50IHtcbiAgcmVuZGVyKCkge1xuICAgIHJldHVybiAoXG4gICAgICA8Zm9vdGVyIGNsYXNzTmFtZT0nZm9vdGVyJz5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9J2Zvb3Rlci1jb250ZW50Jz5cbiAgICAgICAgICA8aDQ+VHJhdmVsIERldGFpbHM8L2g0PlxuICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICA8aDY+QWNjb21tb2RhdGlvbnM8L2g2PlxuICAgICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgICAgR3VtYm8gYmVldCBncmVlbnMgY29ybiBzb2tvIGVuZGl2ZSBndW1ibyBnb3VyZC4gUGFyc2xleSBzaGFsbG90IGNvdXJnZXR0ZSB0YXRzb2kgcGVhIHNwcm91dHMgZmF2YSBiZWFuIGNvbGxhcmQgZ3JlZW5zIGRhbmRlbGlvbiBva3JhLiBHdW1ibyBiZWV0IGdyZWVucyBjb3JuIHNva28gZW5kaXZlIGd1bWJvIGdvdXJkLiBQYXJzbGV5IHNoYWxsb3QgY291cmdldHRlIHRhdHNvaSBwZWEgc3Byb3V0cyBmYXZhIGJlYW4gY29sbGFyZCBncmVlbnMgZGFuZGVsaW9uXG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nbWFyZ2luLWJvdHRvbS0yNHB4Jz5cbiAgICAgICAgICAgIDxoNj5QYXJraW5nICYgVHJhbnNwb3J0YXRpb248L2g2PlxuICAgICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgICAgR3VtYm8gYmVldCBncmVlbnMgY29ybiBzb2tvIGVuZGl2ZSBndW1ibyBnb3VyZC4gUGFyc2xleSBzaGFsbG90IGNvdXJnZXR0ZSB0YXRzb2kgcGVhIHNwcm91dHMgZmF2YSBiZWFuIGNvbGxhcmQgZ3JlZW5zIGRhbmRlbGlvbiBva3JhLiBHdW1ibyBiZWV0IGdyZWVucyBjb3JuIHNva28gZW5kaXZlIGd1bWJvIGdvdXJkLiBQYXJzbGV5IHNoYWxsb3QgY291cmdldHRlIHRhdHNvaSBwZWEgc3Byb3V0cyBmYXZhIGJlYW4gY29sbGFyZCBncmVlbnMgZGFuZGVsaW9uXG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICAuZm9vdGVyIHtcbiAgICAgICAgICAgIGdyaWQtYXJlYTogZm9vdGVyO1xuICAgICAgICAgICAgZGlzcGxheTogZ3JpZDtcbiAgICAgICAgICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMWZyIDhmciA0ZnIgMWZyO1xuICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tY29sb3ItZ3JlZW4tZGFyayk7XG4gICAgICAgICAgICBoZWlnaHQ6IDYwdmg7XG4gICAgICAgICAgICB0ZXh0LXJlbmRlcmluZzogb3B0aW1pemVMZWdpYmlsaXR5O1xuICAgICAgICAgICAgY29sb3I6IHZhcigtLWNvbG9yLWdyZWVuLWxpZ2h0KTtcbiAgICAgICAgICB9XG4gICAgICAgICAgLmZvb3RlciBoNCxcbiAgICAgICAgICAuZm9vdGVyIGg2IHtcbiAgICAgICAgICAgIGNvbG9yOiB2YXIoLS1jb2xvci13aGl0ZSk7XG4gICAgICAgICAgfVxuICAgICAgICAgIC5mb290ZXItY29udGVudCB7XG4gICAgICAgICAgICBncmlkLWNvbHVtbjogMi8zO1xuICAgICAgICAgIH1cbiAgICAgICAgYH08L3N0eWxlPlxuICAgICAgPC9mb290ZXI+XG4gICAgKVxuICB9XG5cbn1cblxuZXhwb3J0IGRlZmF1bHQgRm9vdGVyXG4iXX0= */\n/*@ sourceURL=/Users/dorachan/workspace/tamsenwedding/pages/_footer.js */"));
+      }, "Parking & Transportation"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        },
+        __self: this
+      }, "Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra. Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion"));
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("footer", {
+        className: "jsx-916191247" + " " + 'footer',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "jsx-916191247" + " " + 'footer-content',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "jsx-916191247" + " " + 'footer-content-travel',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
+        className: "jsx-916191247",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        },
+        __self: this
+      }, "Travel Details"), this.renderAccomodations(), this.renderParkingTransportation())), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
+        id: "916191247",
+        __self: this
+      }, ".footer.jsx-916191247{grid-area:footer;background-color:var(--color-green-dark);min-height:60vh;text-rendering:optimizeLegibility;color:var(--color-green-light);}.footer-content.jsx-916191247{display:grid;grid-template-columns:1fr 4fr 2fr 2fr 1fr;grid-template-rows:1fr 2fr 1fr;grid-gap:10px;}.footer-content-travel.jsx-916191247{grid-column:2/3;grid-row:2/3;}.footer-content-travel.jsx-916191247 h4.jsx-916191247{color:var(--color-white);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kb3JhY2hhbi93b3Jrc3BhY2UvdGFtc2Vud2VkZGluZy9wYWdlcy9fZm9vdGVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQW9Db0IsQUFHOEIsQUFPSixBQU1HLEFBSVMsYUFUaUIsR0FNN0IsQ0FiNEIsUUFpQjNDLElBSEEsMEJBTmlDLEdBUGYsZ0JBQ2tCLFlBT3BCLGNBQ2hCLFFBUGlDLCtCQUNqQyIsImZpbGUiOiIvVXNlcnMvZG9yYWNoYW4vd29ya3NwYWNlL3RhbXNlbndlZGRpbmcvcGFnZXMvX2Zvb3Rlci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcyc7XG5pbXBvcnQgY2xhc3NOYW1lcyBmcm9tICdjbGFzc25hbWVzJztcblxuY2xhc3MgRm9vdGVyIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50IHtcbiAgcmVuZGVyQWNjb21vZGF0aW9ucygpIHtcbiAgICByZXR1cm4gKFxuICAgICAgPGRpdj5cbiAgICAgICAgPGg2PkFjY29tbW9kYXRpb25zPC9oNj5cbiAgICAgICAgPGRpdj5cbiAgICAgICAgICBHdW1ibyBiZWV0IGdyZWVucyBjb3JuIHNva28gZW5kaXZlIGd1bWJvIGdvdXJkLiBQYXJzbGV5IHNoYWxsb3QgY291cmdldHRlIHRhdHNvaSBwZWEgc3Byb3V0cyBmYXZhIGJlYW4gY29sbGFyZCBncmVlbnMgZGFuZGVsaW9uIG9rcmEuIEd1bWJvIGJlZXQgZ3JlZW5zIGNvcm4gc29rbyBlbmRpdmUgZ3VtYm8gZ291cmQuIFBhcnNsZXkgc2hhbGxvdCBjb3VyZ2V0dGUgdGF0c29pIHBlYSBzcHJvdXRzIGZhdmEgYmVhbiBjb2xsYXJkIGdyZWVucyBkYW5kZWxpb25cbiAgICAgICAgPC9kaXY+XG4gICAgICA8L2Rpdj5cbiAgICApXG4gIH1cblxuICByZW5kZXJQYXJraW5nVHJhbnNwb3J0YXRpb24oKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxkaXY+XG4gICAgICAgIDxoNj5QYXJraW5nICYgVHJhbnNwb3J0YXRpb248L2g2PlxuICAgICAgICA8ZGl2PlxuICAgICAgICAgIEd1bWJvIGJlZXQgZ3JlZW5zIGNvcm4gc29rbyBlbmRpdmUgZ3VtYm8gZ291cmQuIFBhcnNsZXkgc2hhbGxvdCBjb3VyZ2V0dGUgdGF0c29pIHBlYSBzcHJvdXRzIGZhdmEgYmVhbiBjb2xsYXJkIGdyZWVucyBkYW5kZWxpb24gb2tyYS4gR3VtYm8gYmVldCBncmVlbnMgY29ybiBzb2tvIGVuZGl2ZSBndW1ibyBnb3VyZC4gUGFyc2xleSBzaGFsbG90IGNvdXJnZXR0ZSB0YXRzb2kgcGVhIHNwcm91dHMgZmF2YSBiZWFuIGNvbGxhcmQgZ3JlZW5zIGRhbmRlbGlvblxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvZGl2PlxuICAgIClcbiAgfVxuXG4gIHJlbmRlcigpIHtcbiAgICByZXR1cm4gKFxuICAgICAgPGZvb3RlciBjbGFzc05hbWU9J2Zvb3Rlcic+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdmb290ZXItY29udGVudCc+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9J2Zvb3Rlci1jb250ZW50LXRyYXZlbCc+XG4gICAgICAgICAgICA8aDQ+VHJhdmVsIERldGFpbHM8L2g0PlxuICAgICAgICAgICAgeyB0aGlzLnJlbmRlckFjY29tb2RhdGlvbnMoKSB9XG4gICAgICAgICAgICB7IHRoaXMucmVuZGVyUGFya2luZ1RyYW5zcG9ydGF0aW9uKCkgfVxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAgIC5mb290ZXIge1xuICAgICAgICAgICAgZ3JpZC1hcmVhOiBmb290ZXI7XG4gICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1jb2xvci1ncmVlbi1kYXJrKTtcbiAgICAgICAgICAgIG1pbi1oZWlnaHQ6IDYwdmg7XG4gICAgICAgICAgICB0ZXh0LXJlbmRlcmluZzogb3B0aW1pemVMZWdpYmlsaXR5O1xuICAgICAgICAgICAgY29sb3I6IHZhcigtLWNvbG9yLWdyZWVuLWxpZ2h0KTtcbiAgICAgICAgICB9XG4gICAgICAgICAgLmZvb3Rlci1jb250ZW50IHtcbiAgICAgICAgICAgIGRpc3BsYXk6IGdyaWQ7XG4gICAgICAgICAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDFmciA0ZnIgMmZyIDJmciAxZnI7XG4gICAgICAgICAgICBncmlkLXRlbXBsYXRlLXJvd3M6IDFmciAyZnIgMWZyO1xuICAgICAgICAgICAgZ3JpZC1nYXA6IDEwcHg7XG4gICAgICAgICAgfVxuICAgICAgICAgIC5mb290ZXItY29udGVudC10cmF2ZWwge1xuICAgICAgICAgICAgZ3JpZC1jb2x1bW46IDIvMztcbiAgICAgICAgICAgIGdyaWQtcm93OiAyLzM7XG4gICAgICAgICAgfVxuICAgICAgICAgIC5mb290ZXItY29udGVudC10cmF2ZWwgaDQge1xuICAgICAgICAgICAgY29sb3I6IHZhcigtLWNvbG9yLXdoaXRlKTtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvZm9vdGVyPlxuICAgIClcbiAgfVxuXG59XG5cbmV4cG9ydCBkZWZhdWx0IEZvb3RlclxuIl19 */\n/*@ sourceURL=/Users/dorachan/workspace/tamsenwedding/pages/_footer.js */"));
     }
   }]);
 
@@ -1470,58 +1481,58 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("header", {
-        className: "jsx-2000395650" + " " + 'intro',
+        className: "jsx-1544291194" + " " + 'intro',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 7
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-2000395650",
+        className: "jsx-1544291194",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 8
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-2000395650" + " " + 'intro-header',
+        className: "jsx-1544291194" + " " + 'intro-header',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 9
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h6", {
-        className: "jsx-2000395650",
+        className: "jsx-1544291194",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 10
         },
         __self: this
       }, "Sunday \u2022 May 17, 2020 \u2022 3:00 PM"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", {
-        className: "jsx-2000395650",
+        className: "jsx-1544291194",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 11
         },
         __self: this
       }, "Dora & Derek"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h6", {
-        className: "jsx-2000395650",
+        className: "jsx-1544291194",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 12
         },
         __self: this
       }, "The Outdoor Art Club in Mill Valley, CA")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-2000395650" + " " + 'intro-description',
+        className: "jsx-1544291194" + " " + 'intro-description',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 14
         },
         __self: this
       }, "We would like to invite you to our wedding Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion.")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
-        id: "2000395650",
+        id: "1544291194",
         __self: this
-      }, ".intro.jsx-2000395650{grid-area:intro;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;text-align:center;height:70vh;}.intro-header.jsx-2000395650{padding-top:120px;}.intro-description.jsx-2000395650{padding-top:30px;max-width:700px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kb3JhY2hhbi93b3Jrc3BhY2UvdGFtc2Vud2VkZGluZy9wYWdlcy9faW50cm8uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBaUJvQixBQUc2QixBQVFFLEFBR0QsZ0JBVkosQ0FXRyxDQUhsQixlQUlBLHlEQVh5QixtR0FDSiw2RkFDRCxrQkFDTixZQUNkIiwiZmlsZSI6Ii9Vc2Vycy9kb3JhY2hhbi93b3Jrc3BhY2UvdGFtc2Vud2VkZGluZy9wYWdlcy9faW50cm8uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUHJvcFR5cGVzIGZyb20gJ3Byb3AtdHlwZXMnO1xuaW1wb3J0IGNsYXNzTmFtZXMgZnJvbSAnY2xhc3NuYW1lcyc7XG5cbmNsYXNzIEludHJvIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50IHtcbiAgcmVuZGVyKCkge1xuICAgIHJldHVybiAoXG4gICAgICA8aGVhZGVyIGNsYXNzTmFtZT0naW50cm8nPlxuICAgICAgICA8ZGl2PlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdpbnRyby1oZWFkZXInPlxuICAgICAgICAgICAgPGg2PlN1bmRheSDigKIgTWF5IDE3LCAyMDIwIOKAoiAzOjAwIFBNPC9oNj5cbiAgICAgICAgICAgIDxoMT5Eb3JhICYgRGVyZWs8L2gxPlxuICAgICAgICAgICAgPGg2PlRoZSBPdXRkb29yIEFydCBDbHViIGluIE1pbGwgVmFsbGV5LCBDQTwvaDY+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9J2ludHJvLWRlc2NyaXB0aW9uJz5cbiAgICAgICAgICAgIFdlIHdvdWxkIGxpa2UgdG8gaW52aXRlIHlvdSB0byBvdXIgd2VkZGluZyBHdW1ibyBiZWV0IGdyZWVucyBjb3JuIHNva28gZW5kaXZlIGd1bWJvIGdvdXJkLiBQYXJzbGV5IHNoYWxsb3QgY291cmdldHRlIHRhdHNvaSBwZWEgc3Byb3V0cyBmYXZhIGJlYW4gY29sbGFyZCBncmVlbnMgZGFuZGVsaW9uLlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAgIC5pbnRybyB7XG4gICAgICAgICAgICBncmlkLWFyZWE6IGludHJvO1xuICAgICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogNzB2aDtcbiAgICAgICAgICB9XG4gICAgICAgICAgLmludHJvLWhlYWRlciB7XG4gICAgICAgICAgICBwYWRkaW5nLXRvcDogMTIwcHg7XG4gICAgICAgICAgfVxuICAgICAgICAgIC5pbnRyby1kZXNjcmlwdGlvbiB7XG4gICAgICAgICAgICBwYWRkaW5nLXRvcDogMzBweDtcbiAgICAgICAgICAgIG1heC13aWR0aDogNzAwcHg7XG4gICAgICAgICAgfVxuICAgICAgICBgfTwvc3R5bGU+XG4gICAgICA8L2hlYWRlcj5cbiAgICApXG4gIH1cblxufVxuXG5leHBvcnQgZGVmYXVsdCBJbnRyb1xuIl19 */\n/*@ sourceURL=/Users/dorachan/workspace/tamsenwedding/pages/_intro.js */"));
+      }, ".intro.jsx-1544291194{grid-area:intro;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;text-align:center;min-height:70vh;}.intro-header.jsx-1544291194{padding-top:120px;}.intro-description.jsx-1544291194{padding-top:30px;max-width:700px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kb3JhY2hhbi93b3Jrc3BhY2UvdGFtc2Vud2VkZGluZy9wYWdlcy9faW50cm8uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBaUJvQixBQUc2QixBQVFFLEFBR0QsZ0JBVkosQ0FXRyxDQUhsQixlQUlBLHlEQVh5QixtR0FDSiw2RkFDRCxrQkFDRixnQkFDbEIiLCJmaWxlIjoiL1VzZXJzL2RvcmFjaGFuL3dvcmtzcGFjZS90YW1zZW53ZWRkaW5nL3BhZ2VzL19pbnRyby5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcyc7XG5pbXBvcnQgY2xhc3NOYW1lcyBmcm9tICdjbGFzc25hbWVzJztcblxuY2xhc3MgSW50cm8gZXh0ZW5kcyBSZWFjdC5Db21wb25lbnQge1xuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxoZWFkZXIgY2xhc3NOYW1lPSdpbnRybyc+XG4gICAgICAgIDxkaXY+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9J2ludHJvLWhlYWRlcic+XG4gICAgICAgICAgICA8aDY+U3VuZGF5IOKAoiBNYXkgMTcsIDIwMjAg4oCiIDM6MDAgUE08L2g2PlxuICAgICAgICAgICAgPGgxPkRvcmEgJiBEZXJlazwvaDE+XG4gICAgICAgICAgICA8aDY+VGhlIE91dGRvb3IgQXJ0IENsdWIgaW4gTWlsbCBWYWxsZXksIENBPC9oNj5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0naW50cm8tZGVzY3JpcHRpb24nPlxuICAgICAgICAgICAgV2Ugd291bGQgbGlrZSB0byBpbnZpdGUgeW91IHRvIG91ciB3ZWRkaW5nIEd1bWJvIGJlZXQgZ3JlZW5zIGNvcm4gc29rbyBlbmRpdmUgZ3VtYm8gZ291cmQuIFBhcnNsZXkgc2hhbGxvdCBjb3VyZ2V0dGUgdGF0c29pIHBlYSBzcHJvdXRzIGZhdmEgYmVhbiBjb2xsYXJkIGdyZWVucyBkYW5kZWxpb24uXG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8c3R5bGUganN4PntgXG4gICAgICAgICAgLmludHJvIHtcbiAgICAgICAgICAgIGdyaWQtYXJlYTogaW50cm87XG4gICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICAgICAgbWluLWhlaWdodDogNzB2aDtcbiAgICAgICAgICB9XG4gICAgICAgICAgLmludHJvLWhlYWRlciB7XG4gICAgICAgICAgICBwYWRkaW5nLXRvcDogMTIwcHg7XG4gICAgICAgICAgfVxuICAgICAgICAgIC5pbnRyby1kZXNjcmlwdGlvbiB7XG4gICAgICAgICAgICBwYWRkaW5nLXRvcDogMzBweDtcbiAgICAgICAgICAgIG1heC13aWR0aDogNzAwcHg7XG4gICAgICAgICAgfVxuICAgICAgICBgfTwvc3R5bGU+XG4gICAgICA8L2hlYWRlcj5cbiAgICApXG4gIH1cblxufVxuXG5leHBvcnQgZGVmYXVsdCBJbnRyb1xuIl19 */\n/*@ sourceURL=/Users/dorachan/workspace/tamsenwedding/pages/_intro.js */"));
     }
   }]);
 
