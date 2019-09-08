@@ -39,13 +39,15 @@ class Home extends React.Component {
     return (
       <form name='rsvp' netlify='true' netlify-honeypot='bot-field' hidden>
         <input type='text' name='name' />
+        <input type='radio' name='attendance' />
         <input type='text' name='guests' />
+        <textarea name='diet' />
       </form>
     )
   }
 
   render() {
-    const { name, attendance, guests, preferences } = this.state;
+    const { name, attendance, guests, diet } = this.state;
 
     return (
       <div className='container'>
