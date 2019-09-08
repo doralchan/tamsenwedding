@@ -18,9 +18,8 @@ class Gallery extends React.Component {
           }
           .gallery-grid {
             display: grid;
-            grid-gap: 10px;
-            grid-template-columns: repeat(auto-fill, minmax(22%, 1fr));
             grid-auto-rows: 1fr;
+            grid-gap: 10px;
           }
           .gallery-grid:before {
             content: '';
@@ -49,6 +48,14 @@ class Gallery extends React.Component {
           }
           .grid-large img {
             height: 100%;
+          }
+          @media (min-width: 768px) {
+
+            .gallery-grid {
+              grid-template-columns: repeat(auto-fill, minmax(22%, 1fr));
+              grid-auto-rows: 1fr;
+            }
+
           }
         `}</style>
       </section>

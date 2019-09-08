@@ -16,7 +16,7 @@ class List extends React.Component {
         <style jsx>{`
           .list {
             list-style: none;
-            margin: 0;
+            margin: 4px 0;
             padding: 0;
           }
         `}</style>

@@ -11,6 +11,11 @@
       "static/chunks/commons.6293e6a48baebfa20995.js",
       "static/runtime/main-c5c15c3c5bcb8120bc9d.js"
     ],
+    "/_details": [
+      "static/runtime/webpack-3df6523e264ff2ac6548.js",
+      "static/chunks/commons.6293e6a48baebfa20995.js",
+      "static/runtime/main-c5c15c3c5bcb8120bc9d.js"
+    ],
     "/_error": [
       "static/runtime/webpack-3df6523e264ff2ac6548.js",
       "static/chunks/commons.6293e6a48baebfa20995.js",
@@ -27,11 +32,6 @@
       "static/runtime/main-c5c15c3c5bcb8120bc9d.js"
     ],
     "/_intro": [
-      "static/runtime/webpack-3df6523e264ff2ac6548.js",
-      "static/chunks/commons.6293e6a48baebfa20995.js",
-      "static/runtime/main-c5c15c3c5bcb8120bc9d.js"
-    ],
-    "/_registry": [
       "static/runtime/webpack-3df6523e264ff2ac6548.js",
       "static/chunks/commons.6293e6a48baebfa20995.js",
       "static/runtime/main-c5c15c3c5bcb8120bc9d.js"

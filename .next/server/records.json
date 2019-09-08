@@ -8,7 +8,8 @@
       "multi private-next-pages/index.js": 4,
       "multi next/dist/pages/_app": 5,
       "multi next/dist/pages/_error": 6,
-      "multi next/dist/pages/_document": 7
+      "multi next/dist/pages/_document": 7,
+      "multi private-next-pages/_details.js": 3
     },
     "usedIds": {
       "0": 0,
@@ -23,25 +24,33 @@
   },
   "chunks": {
     "byName": {
-      "static/leC6LNZ_91cdfj3TsD41w/pages/_app.js": 0,
-      "static/leC6LNZ_91cdfj3TsD41w/pages/_document.js": 1,
-      "static/leC6LNZ_91cdfj3TsD41w/pages/_error.js": 2,
-      "static/leC6LNZ_91cdfj3TsD41w/pages/_footer.js": 3,
-      "static/leC6LNZ_91cdfj3TsD41w/pages/_gallery.js": 4,
-      "static/leC6LNZ_91cdfj3TsD41w/pages/_intro.js": 5,
-      "static/leC6LNZ_91cdfj3TsD41w/pages/_registry.js": 6,
-      "static/leC6LNZ_91cdfj3TsD41w/pages/index.js": 7
+      "static/GXgp5tH2b4JKOuysA2jBL/pages/_app.js": 0,
+      "static/GXgp5tH2b4JKOuysA2jBL/pages/_document.js": 1,
+      "static/GXgp5tH2b4JKOuysA2jBL/pages/_error.js": 2,
+      "static/GXgp5tH2b4JKOuysA2jBL/pages/_footer.js": 3,
+      "static/GXgp5tH2b4JKOuysA2jBL/pages/_gallery.js": 4,
+      "static/GXgp5tH2b4JKOuysA2jBL/pages/_intro.js": 5,
+      "static/GXgp5tH2b4JKOuysA2jBL/pages/_registry.js": 6,
+      "static/GXgp5tH2b4JKOuysA2jBL/pages/index.js": 7,
+      "static/SSj_rNaUGR39fb9XxhHKR/pages/_app.js": 8,
+      "static/SSj_rNaUGR39fb9XxhHKR/pages/_details.js": 9,
+      "static/SSj_rNaUGR39fb9XxhHKR/pages/_document.js": 10,
+      "static/SSj_rNaUGR39fb9XxhHKR/pages/_error.js": 11,
+      "static/SSj_rNaUGR39fb9XxhHKR/pages/_footer.js": 12,
+      "static/SSj_rNaUGR39fb9XxhHKR/pages/_gallery.js": 13,
+      "static/SSj_rNaUGR39fb9XxhHKR/pages/_intro.js": 14,
+      "static/SSj_rNaUGR39fb9XxhHKR/pages/index.js": 15
     },
     "bySource": {},
     "usedIds": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      8,
+      9
     ]
   }
 }

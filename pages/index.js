@@ -6,7 +6,7 @@ import Button from '../components/button';
 
 import Intro from './_intro';
 import Gallery from './_gallery';
-import Registry from './_registry';
+import Details from './_details';
 import Footer from './_footer';
 
 const encode = (data) => {
@@ -56,18 +56,18 @@ class Home extends React.Component {
           <Form submit={ this.handleSubmit } formTitle='RSVP'>
             <Input change={ this.handleChange } inputName='name' labelName='Full Name' placeholder='Full Name' />
             <Radio inputName='attendance' labelName='Attendance'>
-              <Radio.Option change={ this.handleChange } value='Joyfully Attending' inputName='attendance' />
-              <Radio.Option change={ this.handleChange } value='Regretfully Declining' inputName='attendance'/>
+              <Radio.Option change={ this.handleChange } value='Joyfully attending' inputName='attendance' />
+              <Radio.Option change={ this.handleChange } value='Regretfully declining' inputName='attendance'/>
             </Radio>
             <Input change={ this.handleChange } inputName='guests' labelName='# of Guests' placeholder='0' />
             <TextArea change={ this.handleChange } inputName='diet' labelName='Dietary Restrictions' placeholder='Description' />
             <Button cta='Submit RSVP' />
           </Form>
-          <Registry />
+          <Details />
           <Footer />
         </div>
         <style jsx global>{`
-          @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Poppins:200,300,600&display=swap');
+          @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Poppins:200,300,500,600&display=swap');
           :root {
             --color-gray-dark: #BABABA;
             --color-gray-light: #F3F3F3;
@@ -119,17 +119,21 @@ class Home extends React.Component {
             justify-content: center;
             align-items: center;
           }
-          .container-sections {
-            display: grid;
-            grid-template-columns: 1fr 4fr 2fr 2fr 1fr;
-            grid-row-gap: 100px;
-            grid-column-gap: 10px;
-            grid-template-areas:
-              ". intro intro intro ."
-              ". gallery gallery gallery ."
-              ". form . registry ."
-              "footer footer footer footer footer"
-            ;
+          @media (min-width: 768px) {
+
+            .container-sections {
+              display: grid;
+              grid-template-columns: 1fr 3fr 3fr 1fr;
+              grid-row-gap: 140px;
+              grid-column-gap: 10px;
+              grid-template-areas:
+                ". intro intro ."
+                ". gallery gallery ."
+                ". details form ."
+                "footer footer footer footer"
+              ;
+            }
+
           }
         `}</style>
       </div>

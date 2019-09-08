@@ -13,7 +13,7 @@ class Intro extends React.Component {
             <h6>The Outdoor Art Club in Mill Valley, CA</h6>
           </div>
           <div className='intro-description'>
-            We would like to invite you to our wedding Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion. We would like to invite you to our wedding Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion.
+            You've been invited to our wedding! We found each other in 2016 and since then, we've been through an amazing journey together filled with love, laughter and discovery. Celebrate with us on Sunday, May 17th at 3pm. There will be a reception and dinner, followed by games, cocktails and dancing!
           </div>
         </div>
         <style jsx>{`
@@ -23,8 +23,8 @@ class Intro extends React.Component {
             justify-content: center;
             align-items: flex-end;
             text-align: center;
-            min-height: 550px;
-            margin-bottom: 50px;
+            min-height: 520px;
+            margin-bottom: 60px;
           }
           .intro-image {
             position: absolute;
@@ -34,7 +34,7 @@ class Intro extends React.Component {
             z-index: -1;
           }
           .intro-header {
-            padding-top: 180px;
+            padding-top: 160px;
             position: relative;
           }
           .intro-description {
