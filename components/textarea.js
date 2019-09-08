@@ -20,15 +20,14 @@ class TextArea extends React.Component {
       <label className='input'>
         <span className='input-label'>{ this.props.labelName }</span>
         <textarea
+          type='text'
           className='input-textarea'
           name={ this.props.inputName }
           placeholder={ this.props.placeholder }
           value={ this.props.value }
           onChange={ this.props.change }
           required
-        >
-          { this.props.value }
-        </textarea>
+        />
         <style jsx>{`
           .input {
             display: flex;
