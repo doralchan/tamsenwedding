@@ -7,9 +7,9 @@ class Gallery extends React.Component {
       <section className='gallery'>
         <div className='gallery-grid'>
           <div className='grid-large'><img src='/static/bg_gallery_1.png' alt='' /></div>
-          <div className='grid-small'><img src='/static/bg_gallery_5.png' alt='' /></div>
-          <div className='grid-small'><img src='/static/bg_gallery_5.png' alt='' /></div>
-          <div className='grid-small'><img src='/static/bg_gallery_5.png' alt='' /></div>
+          <div className='grid-small'><img src='/static/bg_gallery_2.png' alt='' /></div>
+          <div className='grid-small'><img src='/static/bg_gallery_3.png' alt='' /></div>
+          <div className='grid-small'><img src='/static/bg_gallery_4.png' alt='' /></div>
           <div className='grid-small'><img src='/static/bg_gallery_5.png' alt='' /></div>
         </div>
         <style jsx>{`

@@ -60,14 +60,14 @@ class Home extends React.Component {
               <Radio.Option change={ this.handleChange } value='Regretfully Declining' inputName='attendance'/>
             </Radio>
             <Input change={ this.handleChange } inputName='guests' labelName='# of Guests' placeholder='0' />
-            <TextArea change={ this.handleChange } inputName='diet' labelName='Dietary Restrictions' placeholder='Enter Description' />
+            <TextArea change={ this.handleChange } inputName='diet' labelName='Dietary Restrictions' placeholder='Description' />
             <Button cta='Submit RSVP' />
           </Form>
           <Registry />
           <Footer />
         </div>
         <style jsx global>{`
-          @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Poppins:300,600&display=swap');
+          @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Poppins:200,300,600&display=swap');
           :root {
             --color-gray-dark: #BABABA;
             --color-gray-light: #F3F3F3;
@@ -88,11 +88,11 @@ class Home extends React.Component {
           h1, h2, h3, h4, h5, h6 {
             text-transform: uppercase;
             letter-spacing: 0.1em;
-            margin: 0;
           }
           h1, h2, h3, h4, h5 {
             font-family: 'Libre Baskerville', serif;
             font-weight: 300;
+            margin: 16px 0;
           }
           h1 {
             font-size: 3.052em;
@@ -112,6 +112,7 @@ class Home extends React.Component {
           h6 {
             font-size: 0.9em;
             font-weight: 600;
+            margin: 0;
           }
           .container {
             display: flex;

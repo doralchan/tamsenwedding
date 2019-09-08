@@ -29,7 +29,7 @@ class Radio extends React.Component {
             margin-bottom: 8px;
           }
           .radio-options {
-            display: flex;
+
           }
         `}</style>
       </div>
@@ -71,6 +71,7 @@ Radio.Option = class Option extends React.Component {
             cursor: pointer;
             user-select: none;
             flex: 1;
+            margin: 8px 0;
           }
           .radio-option-input {
             display: none;

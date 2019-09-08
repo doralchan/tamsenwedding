@@ -32,6 +32,9 @@ class Form extends React.Component {
             grid-area: form;
             margin-bottom: 40px;
           }
+          .form h4 {
+            margin-bottom: 24px;
+          }
           .hidden {
             display: none;
           }
