@@ -23,6 +23,7 @@ class TextArea extends React.Component {
           className='input-textarea'
           name={ this.props.inputName }
           placeholder={ this.props.placeholder }
+          value={ this.props.value }
           onChange={ this.props.change }
           required
         >
