@@ -1,7 +1,13 @@
 import Form from '../components/form';
 import Input from '../components/input';
 import Radio from '../components/radio';
+import TextArea from '../components/textarea';
 import Button from '../components/button';
+
+import Intro from './_intro';
+import Gallery from './_gallery';
+import Details from './_details';
+import Footer from './_footer';
 
 const encode = (data) => {
   return Object.keys(data)
@@ -31,7 +37,7 @@ class Home extends React.Component {
 
   renderHoneypot() {
     return (
-      <form name='rsvp' netlify-honeypot='bot-field' hidden>
+      <form name='rsvp' netlify='true' netlify-honeypot='bot-field' hidden>
         <input type='text' name='name' />
         <input type='text' name='guests' />
       </form>
@@ -44,33 +50,90 @@ class Home extends React.Component {
     return (
       <div className='container'>
         { this.renderHoneypot() }
-        <div>
-          <h1>Répondez s'il vous plaît</h1>
-          <Form submit={ this.handleSubmit } data-netlify='true'>
+        <div className='container-sections'>
+          <Intro />
+          <Gallery />
+          <Form submit={ this.handleSubmit } formTitle='RSVP'>
             <Input change={ this.handleChange } inputName='name' labelName='Full Name' placeholder='Full Name' />
             <Radio inputName='attendance' labelName='Attendance'>
-              <Radio.Option change={ this.handleChange } value='Happily Accepting' inputName='attendance' />
-              <Radio.Option change={ this.handleChange } value='Regretfully Declining' inputName='attendance'/>
+              <Radio.Option change={ this.handleChange } value='Joyfully attending' inputName='attendance' />
+              <Radio.Option change={ this.handleChange } value='Regretfully declining' inputName='attendance'/>
             </Radio>
-            <Input change={ this.handleChange } inputName='guests' labelName='# of Guests Attending' placeholder='0' />
-            <Input change={ this.handleChange } inputName='preferences' labelName='# of Vegetarians or Vegans' placeholder='0' />
-            <Button cta='Submit' />
+            <Input change={ this.handleChange } inputName='guests' labelName='# of Guests' placeholder='0' />
+            <TextArea change={ this.handleChange } inputName='diet' labelName='Dietary Restrictions' placeholder='Description' />
+            <Button cta='Submit RSVP' />
           </Form>
+          <Details />
+          <Footer />
         </div>
         <style jsx global>{`
-          @import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+          @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Poppins:200,300,500,600&display=swap');
+          :root {
+            --color-gray-dark: #BABABA;
+            --color-gray-light: #F3F3F3;
+            --color-green-dark: #29341B;
+            --color-green-light: #9DB580;
+            --color-black: #000000;
+            --color-white: #FFFFFF;
+          }
           body {
-            font-family: 'Lexend Deca', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
             font-size: 16px;
+            color: var(--color-green-dark);
             margin: 0;
             padding: 0;
             height: 100vh;
           }
+          h1, h2, h3, h4, h5, h6 {
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+          }
+          h1, h2, h3, h4, h5 {
+            font-family: 'Libre Baskerville', serif;
+            font-weight: 300;
+            margin: 8px 0;
+          }
+          h1 {
+            font-size: 4.052em;
+          }
+          h2 {
+            font-size: 2.441em;
+          }
+          h3 {
+            font-size: 1.953em;
+          }
+          h4 {
+            font-size: 1.563em;
+          }
+          h5 {
+            font-size: 1.25em;
+          }
+          h6 {
+            font-size: 0.9em;
+            font-weight: 600;
+            margin: 0;
+          }
           .container {
-            min-height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
+          }
+          @media (min-width: 768px) {
+
+            .container-sections {
+              display: grid;
+              grid-template-columns: 1fr 3fr 3fr 1fr;
+              grid-row-gap: 140px;
+              grid-column-gap: 10px;
+              grid-template-areas:
+                ". intro intro ."
+                ". gallery gallery ."
+                ". details form ."
+                "footer footer footer footer"
+              ;
+            }
+
           }
         `}</style>
       </div>
