@@ -7,12 +7,13 @@ class Intro extends React.Component {
       <header className='intro'>
         <div>
           <div className='intro-header'>
+            <img src='/static/icon_trees.png' className='intro-image' alt='' />
             <h6>Sunday • May 17, 2020 • 3:00 PM</h6>
             <h1>Dora & Derek</h1>
             <h6>The Outdoor Art Club in Mill Valley, CA</h6>
           </div>
           <div className='intro-description'>
-            We would like to invite you to our wedding Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion. Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi.
+            We would like to invite you to our wedding Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion. We would like to invite you to our wedding Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion.
           </div>
         </div>
         <style jsx>{`
@@ -20,16 +21,26 @@ class Intro extends React.Component {
             grid-area: intro;
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: flex-end;
             text-align: center;
-            min-height: 80vh;
+            min-height: 550px;
+            margin-bottom: 50px;
+          }
+          .intro-image {
+            position: absolute;
+            height: 240px;
+            left: -50px;
+            top: -30px;
+            z-index: -1;
           }
           .intro-header {
-            padding-top: 120px;
+            padding-top: 180px;
+            position: relative;
           }
           .intro-description {
-            padding-top: 30px;
-            max-width: 700px;
+            padding-top: 20px;
+            max-width: 850px;
+            text-align: left;
           }
         `}</style>
       </header>

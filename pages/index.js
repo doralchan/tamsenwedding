@@ -92,10 +92,10 @@ class Home extends React.Component {
           h1, h2, h3, h4, h5 {
             font-family: 'Libre Baskerville', serif;
             font-weight: 300;
-            margin: 16px 0;
+            margin: 8px 0;
           }
           h1 {
-            font-size: 3.052em;
+            font-size: 4.052em;
           }
           h2 {
             font-size: 2.441em;

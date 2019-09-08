@@ -68,7 +68,7 @@ class Footer extends React.Component {
             display: grid;
             background-color: var(--color-green-dark);
             grid-template-columns: 1fr 4fr 4fr 1fr;
-            grid-template-rows: 2fr auto 2fr 2fr;
+            grid-template-rows: 2fr auto 2fr 3fr;
             grid-gap: 10px;
           }
           .footer h4 {
@@ -83,7 +83,7 @@ class Footer extends React.Component {
             overflow: hidden;
           }
           .footer-image img {
-            width: 60%;
+            width: 70%;
           }
         `}</style>
       </footer>
