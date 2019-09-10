@@ -18,7 +18,15 @@ class Block extends React.Component {
         <style jsx>{`
           .block {
             margin-bottom: 32px;
-            max-width: 90%;
+          }
+          .block:last-child {
+            margin-bottom: 0;
+          }
+
+          @media (min-width: 992px) {
+            .block {
+              max-width: 90%;
+            }
           }
         `}</style>
       </div>

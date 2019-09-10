@@ -25,7 +25,7 @@ class Details extends React.Component {
         <Block blockTitle='Accomodations'>
           If you're coming in from out of town, we recommend staying in San Francisco or Mill Valley for a nice getaway.
           <List>
-            <List.Item><Link linkTo=''>Browse Airbnb</Link></List.Item>
+            <List.Item><Link linkTo='https://www.airbnb.com/s/Mill-Valley--CA'>Browse Airbnb</Link></List.Item>
           </List>
         </Block>
         <style jsx>{`

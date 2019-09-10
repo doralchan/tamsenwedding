@@ -117,7 +117,7 @@ class Home extends React.Component {
             font-size: 1em;
           }
           h6 {
-            font-size: 0.9em;
+            font-size: 0.8em;
             font-weight: 600;
             margin: 0;
           }
@@ -170,6 +170,9 @@ class Home extends React.Component {
             }
             h5 {
               font-size: 1.25em;
+            }
+            h6 {
+              font-size: 0.9em;
             }
 
             .container-sections {
