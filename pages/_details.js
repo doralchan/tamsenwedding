@@ -13,13 +13,13 @@ class Details extends React.Component {
         <Block blockTitle='Location'>
           1 West Blithedale Avenue, Mill Valley CA
           <List>
-            <List.Item><Link linkTo=''>Get Directions</Link></List.Item>
+            <List.Item><Link linkTo='https://goo.gl/maps/j939V7DoxNk18MA19'>Get Directions</Link></List.Item>
           </List>
         </Block>
         <Block blockTitle='Parking & Transportation'>
           The Outdoor Art Club doesn't have it's own parking but there is an outdoor lot one block away. It's only a 3-5 minute walk.
           <List>
-            <List.Item><Link linkTo=''>Get Directions</Link></List.Item>
+            <List.Item><Link linkTo='https://goo.gl/maps/umZszdRDe5SbM7mk7'>Get Directions</Link></List.Item>
           </List>
         </Block>
         <Block blockTitle='Accomodations'>
@@ -43,7 +43,7 @@ class Details extends React.Component {
         <h4>Registry</h4>
         <Block blockTitle='Online'>
           <List>
-            <List.Item><Link linkTo=''>Zola</Link></List.Item>
+            <List.Item><Link linkTo='https://www.zola.com/registry/derekanddora'>Zola</Link></List.Item>
           </List>
         </Block>
 

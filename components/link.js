@@ -17,7 +17,7 @@ class Link extends React.Component {
         <style jsx>{`
           .link {
             text-decoration: none;
-            font-weight: 500;
+            font-weight: 400;
             color: var(--color-green-light);
           }
         `}</style>

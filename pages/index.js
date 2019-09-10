@@ -69,7 +69,7 @@ class Home extends React.Component {
           <Footer />
         </div>
         <style jsx global>{`
-          @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Poppins:200,300,500,600&display=swap');
+          @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Poppins:200,300,400,600&display=swap');
           :root {
             --color-gray-dark: #BABABA;
             --color-gray-light: #F3F3F3;

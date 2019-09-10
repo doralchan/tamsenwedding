@@ -23,8 +23,8 @@ class Intro extends React.Component {
             justify-content: center;
             align-items: flex-end;
             text-align: center;
-            min-height: 520px;
-            margin-bottom: 60px;
+            min-height: 500px;
+            margin-bottom: 30px;
           }
           .intro-image {
             position: absolute;
