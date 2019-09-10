@@ -70,6 +70,7 @@ class Home extends React.Component {
         </div>
         <style jsx global>{`
           @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Poppins:200,300,400,600&display=swap');
+
           :root {
             --color-gray-dark: #BABABA;
             --color-gray-light: #F3F3F3;
@@ -78,55 +79,102 @@ class Home extends React.Component {
             --color-black: #000000;
             --color-white: #FFFFFF;
           }
+
           body {
             font-family: 'Poppins', sans-serif;
             font-weight: 300;
-            font-size: 16px;
+            font-size: 18px;
             color: var(--color-green-dark);
             margin: 0;
             padding: 0;
             height: 100vh;
           }
+
           h1, h2, h3, h4, h5, h6 {
             text-transform: uppercase;
             letter-spacing: 0.1em;
           }
+
           h1, h2, h3, h4, h5 {
             font-family: 'Libre Baskerville', serif;
             font-weight: 300;
             margin: 8px 0;
           }
+
           h1 {
-            font-size: 4.052em;
-          }
-          h2 {
             font-size: 2.441em;
           }
-          h3 {
+          h2 {
             font-size: 1.953em;
           }
-          h4 {
+          h3 {
             font-size: 1.563em;
           }
-          h5 {
+          h4 {
             font-size: 1.25em;
+          }
+          h5 {
+            font-size: 1em;
           }
           h6 {
             font-size: 0.9em;
             font-weight: 600;
             margin: 0;
           }
+
           .container {
             display: flex;
             justify-content: center;
             align-items: center;
           }
-          @media (min-width: 768px) {
+
+          .container-sections {
+            display: grid;
+            grid-template-columns: 24px 1fr 24px;
+            grid-row-gap: 40px;
+            grid-template-areas:
+              ". intro ."
+              ". gallery ."
+              ". details ."
+              ". form ."
+              "footer footer footer"
+            ;
+          }
+
+          @media (min-width: 768px) and (max-width: 992px) {
 
             .container-sections {
-              display: grid;
+              grid-template-columns: 48px 1fr 48px;
+              grid-row-gap: 10px;
+            }
+
+          }
+
+          @media (min-width: 992px) {
+
+            body {
+              font-size: 16px;
+            }
+
+            h1 {
+              font-size: 4.052em;
+            }
+            h2 {
+              font-size: 2.441em;
+            }
+            h3 {
+              font-size: 1.953em;
+            }
+            h4 {
+              font-size: 1.563em;
+            }
+            h5 {
+              font-size: 1.25em;
+            }
+
+            .container-sections {
               grid-template-columns: 1fr 3fr 3fr 1fr;
-              grid-row-gap: 140px;
+              grid-row-gap: 100px;
               grid-column-gap: 10px;
               grid-template-areas:
                 ". intro intro ."

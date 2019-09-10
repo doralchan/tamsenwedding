@@ -9,7 +9,7 @@ class Details extends React.Component {
   renderTravel() {
     return (
       <div className='details-travel'>
-        <h4>Travel</h4>
+        <h3>Travel</h3>
         <Block blockTitle='Location'>
           1 West Blithedale Avenue, Mill Valley CA
           <List>
@@ -29,7 +29,7 @@ class Details extends React.Component {
           </List>
         </Block>
         <style jsx>{`
-          .details-travel h4 {
+          .details-travel h3 {
             margin-bottom: 24px;
           }
         `}</style>
@@ -40,7 +40,7 @@ class Details extends React.Component {
   renderRegistry() {
     return (
       <div className='details-registry'>
-        <h4>Registry</h4>
+        <h3>Registry</h3>
         <Block blockTitle='Online'>
           <List>
             <List.Item><Link linkTo='https://www.zola.com/registry/derekanddora'>Zola</Link></List.Item>
@@ -51,7 +51,7 @@ class Details extends React.Component {
           .details-registry {
             margin-bottom: 40px;
           }
-          .details-registry h4 {
+          .details-registry h3 {
             margin-bottom: 24px;
           }
         `}</style>

@@ -21,26 +21,41 @@ class Intro extends React.Component {
             grid-area: intro;
             display: flex;
             justify-content: center;
-            align-items: flex-end;
+            align-items: center;
             text-align: center;
-            min-height: 500px;
-            margin-bottom: 30px;
+            min-height: 70vh;
           }
+
           .intro-image {
-            position: absolute;
-            height: 240px;
-            left: -50px;
-            top: -30px;
-            z-index: -1;
+            height: 180px;
+            margin-bottom: 24px;
           }
-          .intro-header {
-            padding-top: 160px;
-            position: relative;
-          }
+
           .intro-description {
             padding-top: 20px;
             max-width: 850px;
             text-align: left;
+          }
+
+          @media (min-width: 992px) {
+
+            .intro {
+              min-height: 500px;
+              margin-bottom: 30px;
+              align-items: flex-end;
+            }
+            .intro-image {
+              position: absolute;
+              height: 240px;
+              left: -50px;
+              top: -30px;
+              z-index: -1;
+            }
+            .intro-header {
+              padding-top: 160px;
+              position: relative;
+            }
+
           }
         `}</style>
       </header>

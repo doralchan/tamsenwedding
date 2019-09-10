@@ -49,7 +49,7 @@ class Gallery extends React.Component {
           .grid-large img {
             height: 100%;
           }
-          @media (min-width: 768px) {
+          @media (min-width: 992px) {
 
             .gallery-grid {
               grid-template-columns: repeat(auto-fill, minmax(22%, 1fr));

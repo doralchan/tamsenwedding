@@ -20,7 +20,7 @@ class Form extends React.Component {
         onSubmit={ this.props.submit }
         className={ formClasses }
         >
-        { this.props.formTitle ? <h4>{ this.props.formTitle }</h4> : null }
+        { this.props.formTitle ? <h3>{ this.props.formTitle }</h3> : null }
         <span className='hidden'>
           <label><input name='bot=field' /></label>
         </span>
@@ -32,7 +32,7 @@ class Form extends React.Component {
             grid-area: form;
             margin-bottom: 40px;
           }
-          .form h4 {
+          .form h3 {
             margin-bottom: 24px;
           }
           .hidden {
