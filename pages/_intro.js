@@ -23,7 +23,7 @@ class Intro extends React.Component {
             justify-content: center;
             align-items: center;
             text-align: center;
-            min-height: 70vh;
+            min-height: 60vh;
           }
 
           .intro-image {
@@ -35,6 +35,14 @@ class Intro extends React.Component {
             padding-top: 20px;
             max-width: 850px;
             text-align: left;
+          }
+
+          @media (min-width: 768px) and (max-width: 992px) {
+
+            .intro {
+              min-height: 50vh;
+            }
+
           }
 
           @media (min-width: 992px) {

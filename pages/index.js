@@ -82,8 +82,8 @@ class Home extends React.Component {
 
           body {
             font-family: 'Poppins', sans-serif;
-            font-weight: 300;
-            font-size: 18px;
+            font-weight: 200;
+            font-size: 17px;
             color: var(--color-green-dark);
             margin: 0;
             padding: 0;
@@ -102,7 +102,7 @@ class Home extends React.Component {
           }
 
           h1 {
-            font-size: 2.441em;
+            font-size: 2.281em;
           }
           h2 {
             font-size: 1.953em;
@@ -145,7 +145,7 @@ class Home extends React.Component {
 
             .container-sections {
               grid-template-columns: 48px 1fr 48px;
-              grid-row-gap: 10px;
+              grid-row-gap: 80px;
             }
 
           }
@@ -154,13 +154,14 @@ class Home extends React.Component {
 
             body {
               font-size: 16px;
+              font-weight: 300;
             }
 
             h1 {
               font-size: 4.052em;
             }
             h2 {
-              font-size: 2.441em;
+              font-size: 2.281em;
             }
             h3 {
               font-size: 1.953em;

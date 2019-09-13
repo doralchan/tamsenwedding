@@ -23,14 +23,14 @@
   },
   "chunks": {
     "byName": {
-      "static/ocn4HbO2QnRr6BGDcu5JI/pages/_app.js": 0,
-      "static/ocn4HbO2QnRr6BGDcu5JI/pages/_details.js": 1,
-      "static/ocn4HbO2QnRr6BGDcu5JI/pages/_document.js": 2,
-      "static/ocn4HbO2QnRr6BGDcu5JI/pages/_error.js": 3,
-      "static/ocn4HbO2QnRr6BGDcu5JI/pages/_footer.js": 4,
-      "static/ocn4HbO2QnRr6BGDcu5JI/pages/_gallery.js": 5,
-      "static/ocn4HbO2QnRr6BGDcu5JI/pages/_intro.js": 6,
-      "static/ocn4HbO2QnRr6BGDcu5JI/pages/index.js": 7
+      "static/OzcVLDBjyfR5XYJiruIFR/pages/_app.js": 0,
+      "static/OzcVLDBjyfR5XYJiruIFR/pages/_details.js": 1,
+      "static/OzcVLDBjyfR5XYJiruIFR/pages/_document.js": 2,
+      "static/OzcVLDBjyfR5XYJiruIFR/pages/_error.js": 3,
+      "static/OzcVLDBjyfR5XYJiruIFR/pages/_footer.js": 4,
+      "static/OzcVLDBjyfR5XYJiruIFR/pages/_gallery.js": 5,
+      "static/OzcVLDBjyfR5XYJiruIFR/pages/_intro.js": 6,
+      "static/OzcVLDBjyfR5XYJiruIFR/pages/index.js": 7
     },
     "bySource": {},
     "usedIds": [
