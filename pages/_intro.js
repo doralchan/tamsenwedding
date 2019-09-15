@@ -32,7 +32,7 @@ class Intro extends React.Component {
           }
 
           .intro-image {
-            height: 180px;
+            height: 140px;
             margin-bottom: 24px;
           }
 

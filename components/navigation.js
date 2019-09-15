@@ -32,6 +32,7 @@ class Navigation extends React.Component {
               position: absolute;
               right: 0;
               top: 80px;
+              width: auto;
             }
             .nav-list {
               flex-direction: column;
