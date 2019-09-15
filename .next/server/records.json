@@ -23,14 +23,14 @@
   },
   "chunks": {
     "byName": {
-      "static/p5fK_rHJfXKBGnjlU9w9e/pages/_app.js": 0,
-      "static/p5fK_rHJfXKBGnjlU9w9e/pages/_details.js": 1,
-      "static/p5fK_rHJfXKBGnjlU9w9e/pages/_document.js": 2,
-      "static/p5fK_rHJfXKBGnjlU9w9e/pages/_error.js": 3,
-      "static/p5fK_rHJfXKBGnjlU9w9e/pages/_footer.js": 4,
-      "static/p5fK_rHJfXKBGnjlU9w9e/pages/_gallery.js": 5,
-      "static/p5fK_rHJfXKBGnjlU9w9e/pages/_intro.js": 6,
-      "static/p5fK_rHJfXKBGnjlU9w9e/pages/index.js": 7
+      "static/oydMM11p2yW5PfLhfbdyX/pages/_app.js": 0,
+      "static/oydMM11p2yW5PfLhfbdyX/pages/_details.js": 1,
+      "static/oydMM11p2yW5PfLhfbdyX/pages/_document.js": 2,
+      "static/oydMM11p2yW5PfLhfbdyX/pages/_error.js": 3,
+      "static/oydMM11p2yW5PfLhfbdyX/pages/_footer.js": 4,
+      "static/oydMM11p2yW5PfLhfbdyX/pages/_gallery.js": 5,
+      "static/oydMM11p2yW5PfLhfbdyX/pages/_intro.js": 6,
+      "static/oydMM11p2yW5PfLhfbdyX/pages/index.js": 7
     },
     "bySource": {},
     "usedIds": [

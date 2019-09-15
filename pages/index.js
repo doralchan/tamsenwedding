@@ -121,7 +121,7 @@ class Home extends React.Component {
           }
 
           h1 {
-            font-size: 2em;
+            font-size: 2.010em;
           }
           h2 {
             font-size: 1.953em;
@@ -186,7 +186,7 @@ class Home extends React.Component {
               font-size: 4.052em;
             }
             h2 {
-              font-size: 2em;
+              font-size: 2.010em;
             }
             h3 {
               font-size: 1.953em;
