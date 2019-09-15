@@ -11,7 +11,7 @@ class Details extends React.Component {
       <div id='travel' className='details-travel'>
         <h3>Travel</h3>
         <Block blockTitle='Location'>
-          1 West Blithedale Avenue, Mill Valley CA
+          1 West Blithedale Avenue, Mill Valley CA 94941
           <List>
             <List.Item><Link linkTo='https://goo.gl/maps/j939V7DoxNk18MA19'>Get Directions</Link></List.Item>
           </List>

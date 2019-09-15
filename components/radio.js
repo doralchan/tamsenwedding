@@ -28,9 +28,6 @@ class Radio extends React.Component {
             font-weight: 600;
             margin-bottom: 8px;
           }
-          .radio-options {
-
-          }
         `}</style>
       </div>
     )
@@ -80,19 +77,19 @@ Radio.Option = class Option extends React.Component {
             display: flex;
             flex-direction: column;
             position: relative;
-            padding-left: 24px;
+            padding-left: 30px;
             line-height: 24px;
           }
           .radio-option-input + span:before {
             content: '';
             display: block;
             position: absolute;
-            top: 4px;
+            top: 2px;
             left: 0;
             border-radius: 50%;
             width: 16px;
             height: 16px;
-            border: 1px solid var(--color-gray-dark);
+            border: 2px solid var(--color-gray-medium);
             background: var(--color-white);
           }
           .radio-option-input + span:after {
@@ -103,8 +100,8 @@ Radio.Option = class Option extends React.Component {
             background: var(--color-green-medium);
             position: absolute;
             border-radius: 50%;
-            top: 8px;
-            left: 4px;
+            top: 7px;
+            left: 5px;
             opacity: 0;
             transform: scale(0,0);
             transition: all 100ms ease-in-out;

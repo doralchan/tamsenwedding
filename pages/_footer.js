@@ -5,11 +5,9 @@ class Footer extends React.Component {
   render() {
     return (
       <footer className='footer'>
-        <div className='footer-image'>
-          <img src='/static/icon_forest.png' alt='' /><img src='/static/icon_forest.png' alt='' />
-        </div>
+        <div className='footer-image' />
         <div className='footer-content'>
-          © Made by Dora Chan
+          © Made by Dora
         </div>
         <style jsx>{`
           .footer {
@@ -19,13 +17,11 @@ class Footer extends React.Component {
           }
 
           .footer-image {
-            display: flex;
-            width: 100%;
-            overflow: hidden;
-          }
-
-          .footer-image img {
-            width: 100%;
+            height: 200px;
+            background-size: auto 200px,cover;
+            background-image: url(/static/icon_forest.png);
+            background-position: top center;
+            background-repeat: repeat-x;
           }
 
           .footer-content {
