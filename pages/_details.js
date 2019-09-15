@@ -8,7 +8,7 @@ import Link from '../components/link';
 class Details extends React.Component {
   renderTravel() {
     return (
-      <div className='details-travel'>
+      <div id='travel' className='details-travel'>
         <h3>Travel</h3>
         <Block blockTitle='Location'>
           1 West Blithedale Avenue, Mill Valley CA
@@ -29,6 +29,10 @@ class Details extends React.Component {
           </List>
         </Block>
         <style jsx>{`
+          .details-travel {
+            padding-top: 24px;
+            padding-bottom: 24px;
+          }
           .details-travel h3 {
             margin-bottom: 24px;
           }
@@ -39,7 +43,7 @@ class Details extends React.Component {
 
   renderRegistry() {
     return (
-      <div className='details-registry'>
+      <div id='registry' className='details-registry'>
         <h3>Registry</h3>
         <Block blockTitle='Online'>
           <List>
@@ -49,7 +53,8 @@ class Details extends React.Component {
 
         <style jsx>{`
           .details-registry {
-            margin-bottom: 40px;
+            padding-top: 24px;
+            padding-bottom: 24px;
           }
           .details-registry h3 {
             margin-bottom: 24px;

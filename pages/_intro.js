@@ -1,10 +1,13 @@
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
+import Navigation from '../components/navigation';
+
 class Intro extends React.Component {
   render() {
     return (
       <header className='intro'>
+        <Navigation />
         <div>
           <div className='intro-header'>
             <img src='/static/icon_trees.png' className='intro-image' alt='' />
@@ -20,10 +23,12 @@ class Intro extends React.Component {
           .intro {
             grid-area: intro;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             text-align: center;
             min-height: 60vh;
+            position: relative;
           }
 
           .intro-image {
@@ -48,6 +53,7 @@ class Intro extends React.Component {
           @media (min-width: 992px) {
 
             .intro {
+              flex-direction: row;
               min-height: 500px;
               margin-bottom: 30px;
               align-items: flex-end;

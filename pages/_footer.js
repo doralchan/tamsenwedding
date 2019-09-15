@@ -15,7 +15,7 @@ class Footer extends React.Component {
           .footer {
             grid-area: footer;
             background-color: var(--color-green-dark);
-            color: var(--color-green-light);
+            color: var(--color-green-medium);
           }
 
           .footer-image {

@@ -4,7 +4,7 @@ import classNames from 'classnames';
 class Gallery extends React.Component {
   render() {
     return (
-      <section className='gallery'>
+      <section id='photos' className='gallery'>
         <div className='gallery-grid'>
           <div className='grid-large'><img src='/static/bg_gallery_1.png' alt='' /></div>
           <div className='grid-small'><img src='/static/bg_gallery_2.png' alt='' /></div>

@@ -6,7 +6,8 @@
     "classnames": "^2.2.6",
     "next": "^9.0.2",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-scroll-into-view": "^1.5.3"
   },
   "scripts": {
     "dev": "next",

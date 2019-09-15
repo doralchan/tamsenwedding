@@ -79,7 +79,7 @@ class Home extends React.Component {
         <div className='container-sections'>
           <Intro />
           <Gallery />
-          <div className='rsvp'>
+          <div id='RSVP' className='rsvp'>
             <h3>RSVP</h3>
             { !this.state.isHidden ? this.renderForm() : <Banner /> }
           </div>
@@ -93,7 +93,8 @@ class Home extends React.Component {
             --color-gray-dark: #BABABA;
             --color-gray-light: #F3F3F3;
             --color-green-dark: #29341B;
-            --color-green-light: #9DB580;
+            --color-green-medium: #9DB580;
+            --color-green-light: #c2d1b0;
             --color-black: #000000;
             --color-white: #FFFFFF;
           }
@@ -161,6 +162,8 @@ class Home extends React.Component {
 
           .rsvp {
             grid-area: rsvp;
+            padding-top: 24px;
+            padding-bottom: 24px;
           }
 
           @media (min-width: 768px) and (max-width: 992px) {
