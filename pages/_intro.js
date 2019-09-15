@@ -13,7 +13,7 @@ class Intro extends React.Component {
             <h6>The Outdoor Art Club in Mill Valley, CA</h6>
           </div>
           <div className='intro-description'>
-            You've been invited to our wedding! We found each other in 2016 and since then, we've been through an amazing journey together filled with love, laughter and discovery. Celebrate with us on Sunday, May 17th at 3pm. There will be a reception and dinner, followed by games, cocktails and dancing!
+            You've been invited to our little wedding! We found each other ~3 years ago and had one of our first dates catching Pokemon in Golden Gate Park. It was clear we were meant to be. Since then, we've been on an epic journey, picking up a DIY house and idiosycratic cats on the way. We hope you can celebrate with us!
           </div>
         </div>
         <style jsx>{`

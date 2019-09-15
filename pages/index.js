@@ -1,4 +1,5 @@
 import Form from '../components/form';
+import Banner from '../components/banner';
 import Input from '../components/input';
 import Radio from '../components/radio';
 import TextArea from '../components/textarea';
@@ -18,8 +19,15 @@ const encode = (data) => {
 class Home extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { name: "", attendance: "", guests: "", preferences: "" };
+    this.state = { name: "", attendance: "", guests: "", preferences: "", isHidden: false };
   }
+
+  toggleHidden() {
+    this.setState({
+      isHidden: this.state.isHidden
+    })
+  }
+
 
   handleSubmit = e => {
     fetch("/", {
@@ -27,13 +35,14 @@ class Home extends React.Component {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "rsvp", ...this.state })
     })
-      .then(() => alert("Success!"))
+      .then(() => { this.setState({ isHidden: true })})
       .catch(error => alert(error));
 
     e.preventDefault();
   };
 
-  handleChange = e => this.setState({ [e.target.name]: e.target.value });
+  handleChange = e =>
+    this.setState({ [e.target.name]: e.target.value });
 
   renderHoneypot() {
     return (
@@ -46,25 +55,34 @@ class Home extends React.Component {
     )
   }
 
-  render() {
+  renderForm() {
     const { name, attendance, guests, diet } = this.state;
 
+    return (
+      <Form submit={ this.handleSubmit }>
+        <Input change={ this.handleChange } inputName='name' labelName='Full Name' placeholder='Full Name' />
+        <Radio inputName='attendance' labelName='Attendance'>
+          <Radio.Option change={ this.handleChange } value='Joyfully attending' inputName='attendance' />
+          <Radio.Option change={ this.handleChange } value='Regretfully declining' inputName='attendance'/>
+        </Radio>
+        <Input change={ this.handleChange } inputName='guests' labelName='# of Guests' placeholder='0' />
+        <TextArea change={ this.handleChange } inputName='diet' labelName='Dietary Restrictions' placeholder='Description' />
+        <Button cta='Submit RSVP' />
+      </Form>
+    )
+  }
+
+  render() {
     return (
       <div className='container'>
         { this.renderHoneypot() }
         <div className='container-sections'>
           <Intro />
           <Gallery />
-          <Form submit={ this.handleSubmit } formTitle='RSVP'>
-            <Input change={ this.handleChange } inputName='name' labelName='Full Name' placeholder='Full Name' />
-            <Radio inputName='attendance' labelName='Attendance'>
-              <Radio.Option change={ this.handleChange } value='Joyfully attending' inputName='attendance' />
-              <Radio.Option change={ this.handleChange } value='Regretfully declining' inputName='attendance'/>
-            </Radio>
-            <Input change={ this.handleChange } inputName='guests' labelName='# of Guests' placeholder='0' />
-            <TextArea change={ this.handleChange } inputName='diet' labelName='Dietary Restrictions' placeholder='Description' />
-            <Button cta='Submit RSVP' />
-          </Form>
+          <div className='rsvp'>
+            <h3>RSVP</h3>
+            { !this.state.isHidden ? this.renderForm() : <Banner /> }
+          </div>
           <Details />
           <Footer />
         </div>
@@ -136,9 +154,13 @@ class Home extends React.Component {
               ". intro ."
               ". gallery ."
               ". details ."
-              ". form ."
+              ". rsvp ."
               "footer footer footer"
             ;
+          }
+
+          .rsvp {
+            grid-area: rsvp;
           }
 
           @media (min-width: 768px) and (max-width: 992px) {
@@ -183,7 +205,7 @@ class Home extends React.Component {
               grid-template-areas:
                 ". intro intro ."
                 ". gallery gallery ."
-                ". details form ."
+                ". details rsvp ."
                 "footer footer footer footer"
               ;
             }

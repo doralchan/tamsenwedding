@@ -17,13 +17,13 @@ class Details extends React.Component {
           </List>
         </Block>
         <Block blockTitle='Parking & Transportation'>
-          The Outdoor Art Club doesn't have it's own parking but there is an outdoor lot one block away. It's only a 3-5 minute walk.
+          The venue doesn't have it's own parking but there is an outdoor lot one block away. It's only a 3-5 minute walk. If you're extra lazy we can arrange a pedicab. Kidding. They don't have pedicabs in Mill Valley.
           <List>
             <List.Item><Link linkTo='https://goo.gl/maps/umZszdRDe5SbM7mk7'>Get Directions</Link></List.Item>
           </List>
         </Block>
         <Block blockTitle='Accomodations'>
-          If you're coming in from out of town, we recommend staying in San Francisco or Mill Valley for a nice getaway.
+          If you're coming in from out of town, we recommend staying in San Francisco or Mill Valley. Treat yo self.
           <List>
             <List.Item><Link linkTo='https://www.airbnb.com/s/Mill-Valley--CA'>Browse Airbnb</Link></List.Item>
           </List>

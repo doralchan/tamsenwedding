@@ -5,8 +5,7 @@ class Form extends React.Component {
   static propTypes = {
     children: PropTypes.node.isRequired,
     className: PropTypes.string,
-    submit: PropTypes.func,
-    formTitle: PropTypes.string
+    submit: PropTypes.func
   }
 
   render() {
@@ -20,7 +19,6 @@ class Form extends React.Component {
         onSubmit={ this.props.submit }
         className={ formClasses }
         >
-        { this.props.formTitle ? <h3>{ this.props.formTitle }</h3> : null }
         <span className='hidden'>
           <label><input name='bot=field' /></label>
         </span>
@@ -29,11 +27,8 @@ class Form extends React.Component {
           .form {
             display: flex;
             flex-direction: column;
-            grid-area: form;
+            margin-top: 24px;
             margin-bottom: 40px;
-          }
-          .form h3 {
-            margin-bottom: 24px;
           }
           .hidden {
             display: none;
