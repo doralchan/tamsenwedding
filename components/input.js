@@ -7,21 +7,25 @@ class Input extends React.Component {
     placeholder: PropTypes.string.isRequired,
     inputName: PropTypes.string,
     typeName: PropTypes.string,
+    type: PropTypes.oneOf(['text', 'number']),
     change: PropTypes.func
   }
 
   static defaultProps = {
     labelName: 'Label',
-    placeholder: 'Field'
+    placeholder: 'Field',
+    type: 'text'
   }
 
   render() {
+    const inputClasses = classNames('input-text', this.props.type === 'number' ? 'input-number' : '');
+
     return (
       <label className='input'>
         <span className='input-label'>{ this.props.labelName }</span>
         <input
-          type='text'
-          className='input-text'
+          className={ inputClasses }
+          type={ this.props.type }
           name={ this.props.inputName }
           placeholder={ this.props.placeholder }
           value={ this.props.value }
@@ -59,6 +63,11 @@ class Input extends React.Component {
           }
           .input-text:focus {
             outline: none;
+          }
+          .input-number[type=number]::-webkit-inner-spin-button,
+          .input-number[type=number]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
           }
         `}</style>
       </label>

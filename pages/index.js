@@ -65,7 +65,7 @@ class Home extends React.Component {
           <Radio.Option change={ this.handleChange } value='Joyfully attending' inputName='attendance' />
           <Radio.Option change={ this.handleChange } value='Regretfully declining' inputName='attendance'/>
         </Radio>
-        <Input change={ this.handleChange } inputName='guests' labelName='# of Guests' placeholder='0' />
+        <Input type='number' change={ this.handleChange } inputName='guests' labelName='# of Guests' placeholder='0' />
         <TextArea change={ this.handleChange } inputName='diet' labelName='Dietary Restrictions' placeholder='Description' />
         <Button cta='Submit RSVP' />
       </Form>
