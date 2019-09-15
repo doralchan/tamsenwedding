@@ -117,7 +117,7 @@ class Home extends React.Component {
 
           h1, h2, h3, h4, h5 {
             font-family: 'Libre Baskerville', serif;
-            font-weight: 300;
+            font-weight: 700;
             margin: 8px 0;
           }
 
@@ -125,7 +125,7 @@ class Home extends React.Component {
             font-size: 2.010em;
           }
           h2 {
-            font-size: 1.953em;
+            font-size: 1.853em;
           }
           h3 {
             font-size: 1.563em;
@@ -146,6 +146,8 @@ class Home extends React.Component {
             display: flex;
             justify-content: center;
             align-items: center;
+            max-width: 1600px;
+            margin: 0 auto;
           }
 
           .container-sections {
@@ -190,7 +192,7 @@ class Home extends React.Component {
               font-size: 2.010em;
             }
             h3 {
-              font-size: 1.953em;
+              font-size: 1.853em;
             }
             h4 {
               font-size: 1.563em;
