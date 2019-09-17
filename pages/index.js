@@ -1,3 +1,5 @@
+import Head from 'next/head';
+
 import Form from '../components/form';
 import Banner from '../components/banner';
 import Input from '../components/input';
@@ -75,6 +77,10 @@ class Home extends React.Component {
   render() {
     return (
       <div className='container'>
+        <Head>
+          <title>Tamsen Wedding</title>
+          
+        </Head>
         { this.renderHoneypot() }
         <div className='container-sections'>
           <Intro />

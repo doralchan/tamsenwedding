@@ -52,6 +52,7 @@ class Input extends React.Component {
             padding: 0 16px;
             border-style: solid;
             border-radius: 0;
+            box-shadow: none;
             border: 2px solid var(--color-gray-medium);
             outline: none;
           }

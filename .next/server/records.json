@@ -23,14 +23,14 @@
   },
   "chunks": {
     "byName": {
-      "static/QY-lqiORiREmB0N_DSWp2/pages/_app.js": 0,
-      "static/QY-lqiORiREmB0N_DSWp2/pages/_details.js": 1,
-      "static/QY-lqiORiREmB0N_DSWp2/pages/_document.js": 2,
-      "static/QY-lqiORiREmB0N_DSWp2/pages/_error.js": 3,
-      "static/QY-lqiORiREmB0N_DSWp2/pages/_footer.js": 4,
-      "static/QY-lqiORiREmB0N_DSWp2/pages/_gallery.js": 5,
-      "static/QY-lqiORiREmB0N_DSWp2/pages/_intro.js": 6,
-      "static/QY-lqiORiREmB0N_DSWp2/pages/index.js": 7
+      "static/Z5pt_LBQhd1ra-c0eGqJR/pages/_app.js": 0,
+      "static/Z5pt_LBQhd1ra-c0eGqJR/pages/_details.js": 1,
+      "static/Z5pt_LBQhd1ra-c0eGqJR/pages/_document.js": 2,
+      "static/Z5pt_LBQhd1ra-c0eGqJR/pages/_error.js": 3,
+      "static/Z5pt_LBQhd1ra-c0eGqJR/pages/_footer.js": 4,
+      "static/Z5pt_LBQhd1ra-c0eGqJR/pages/_gallery.js": 5,
+      "static/Z5pt_LBQhd1ra-c0eGqJR/pages/_intro.js": 6,
+      "static/Z5pt_LBQhd1ra-c0eGqJR/pages/index.js": 7
     },
     "bySource": {},
     "usedIds": [

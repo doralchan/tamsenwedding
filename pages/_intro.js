@@ -61,8 +61,8 @@ class Intro extends React.Component {
             .intro-image {
               position: absolute;
               height: 240px;
-              left: -50px;
-              top: -30px;
+              left: -70px;
+              top: -50px;
               z-index: -1;
             }
             .intro-header {

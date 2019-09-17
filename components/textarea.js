@@ -49,6 +49,7 @@ class TextArea extends React.Component {
             line-height: 24px;
             border-style: solid;
             border-radius: 0;
+            box-shadow: none;
             resize: none;
             border: 2px solid var(--color-gray-medium);
             outline: none;

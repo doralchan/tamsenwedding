@@ -54,7 +54,6 @@ class Details extends React.Component {
         <style jsx>{`
           .details-registry {
             padding-top: 24px;
-            padding-bottom: 24px;
           }
           .details-registry h3 {
             margin-bottom: 24px;
