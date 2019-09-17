@@ -79,7 +79,6 @@ class Home extends React.Component {
       <div className='container'>
         <Head>
           <title>Tamsen Wedding</title>
-          
         </Head>
         { this.renderHoneypot() }
         <div className='container-sections'>
