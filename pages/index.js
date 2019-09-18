@@ -79,6 +79,7 @@ class Home extends React.Component {
       <div className='container'>
         <Head>
           <title>Tamsen Wedding</title>
+          <link rel="shortcut icon" href="/static/favicon-pine.ico"/>
         </Head>
         { this.renderHoneypot() }
         <div className='container-sections'>
