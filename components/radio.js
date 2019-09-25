@@ -89,7 +89,7 @@ Radio.Option = class Option extends React.Component {
             border-radius: 50%;
             width: 16px;
             height: 16px;
-            border: 2px solid var(--color-gray-medium);
+            border: 2px solid var(--color-gray);
             background: var(--color-white);
           }
           .radio-option-input + span:after {
@@ -97,7 +97,7 @@ Radio.Option = class Option extends React.Component {
             display: block;
             width: 10px;
             height: 10px;
-            background: var(--color-green-medium);
+            background: var(--color-green);
             position: absolute;
             border-radius: 50%;
             top: 7px;

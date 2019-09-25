@@ -52,15 +52,15 @@ class Input extends React.Component {
             padding: 0 16px;
             border-style: solid;
             border-radius: 0;
-            box-shadow: none;
-            border: 2px solid var(--color-gray-medium);
+            box-shadow: none !important;
+            border: 2px solid var(--color-gray);
             outline: none;
           }
           .input-text::placeholder {
             font-weight: 200;
           }
           .input-text:focus {
-            border-color: var(--color-green-medium);
+            border-color: var(--color-green);
           }
           .input-text:focus {
             outline: none;

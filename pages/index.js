@@ -99,12 +99,12 @@ class Home extends React.Component {
 
           :root {
             --color-gray-dark: #BABABA;
-            --color-gray-medium: #D8D8D8;
+            --color-gray: #D8D8D8;
             --color-gray-light: #F3F3F3;
             --color-green-dark: #29341B;
-            --color-green-medium: #9DB580;
-            --color-blue-medium: #336081;
+            --color-green: #9DB580;
             --color-black: #000000;
+            --color-black-light: #1b1b1b;
             --color-white: #FFFFFF;
           }
 

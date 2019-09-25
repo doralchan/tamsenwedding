@@ -49,16 +49,16 @@ class TextArea extends React.Component {
             line-height: 24px;
             border-style: solid;
             border-radius: 0;
-            box-shadow: none;
+            box-shadow: none !important;
             resize: none;
-            border: 2px solid var(--color-gray-medium);
+            border: 2px solid var(--color-gray);
             outline: none;
           }
           .input-textarea::placeholder {
             font-weight: 200;
           }
           .input-textarea:focus {
-            border-color: var(--color-green-medium);
+            border-color: var(--color-green);
           }
         `}</style>
       </label>
