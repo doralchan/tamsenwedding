@@ -9,7 +9,8 @@ import Button from '../components/button';
 
 import Intro from './_intro';
 import Gallery from './_gallery';
-import Details from './_details';
+import Travel from './_travel';
+import Registry from './_registry';
 import Footer from './_footer';
 
 const encode = (data) => {
@@ -89,7 +90,8 @@ class Home extends React.Component {
             <h3>RSVP</h3>
             { !this.state.isHidden ? this.renderForm() : <Banner /> }
           </div>
-          <Details />
+          <Travel />
+          <Registry />
           <Footer />
         </div>
         <style jsx global>{`
@@ -102,6 +104,7 @@ class Home extends React.Component {
             --color-green-dark: #29341B;
             --color-green-medium: #9DB580;
             --color-green-light: #c2d1b0;
+            --color-grue: #5A685B;
             --color-black: #000000;
             --color-white: #FFFFFF;
           }
@@ -163,8 +166,9 @@ class Home extends React.Component {
             grid-template-areas:
               ". intro ."
               ". gallery ."
-              ". details ."
+              ". travel ."
               ". rsvp ."
+              ". registry ."
               "footer footer footer"
             ;
           }
@@ -172,7 +176,6 @@ class Home extends React.Component {
           .rsvp {
             grid-area: rsvp;
             padding-top: 24px;
-            padding-bottom: 24px;
           }
 
           @media (min-width: 768px) and (max-width: 992px) {
@@ -217,7 +220,8 @@ class Home extends React.Component {
               grid-template-areas:
                 ". intro intro ."
                 ". gallery gallery ."
-                ". details rsvp ."
+                ". travel rsvp ."
+                ". registry registry ."
                 "footer footer footer footer"
               ;
             }

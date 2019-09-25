@@ -2,7 +2,7 @@ import ScrollTo from 'react-scroll-into-view';
 
 class Navigation extends React.Component {
   render() {
-    const navList = ['photos','registry', 'travel', 'RSVP'];
+    const navList = ['photos', 'travel', 'RSVP', 'registry'];
 
     return (
       <nav className='nav'>

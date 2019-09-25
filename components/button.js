@@ -32,6 +32,7 @@ class Button extends React.Component {
             border: 0;
             text-rendering: optimizeLegibility;
             font-size: 0.9em;
+            min-width: 200px;
           }
           .btn:focus {
             outline: none;
@@ -39,9 +40,13 @@ class Button extends React.Component {
           .btn:hover {
             cursor: pointer;
           }
-          .btn {
+          .btn-primary {
             background-color: var(--color-black);
             color: var(--color-white);
+          }
+          .btn-secondary {
+            background-color: var(--color-white);
+            color: var(--color-green-dark);
           }
         `}</style>
       </button>
