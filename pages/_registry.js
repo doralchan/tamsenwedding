@@ -9,9 +9,11 @@ class Registry extends React.Component {
   render() {
     return (
       <section id='registry' className='registry'>
-        <img src='/static/icon_zola.svg' alt='' />
         <h3>Registry</h3>
-        <Link linkType='btn' linkTo='https://www.zola.com/registry/derekanddora'>Browse Zola</Link>
+        <Link linkType='btn' linkTo='https://www.zola.com/registry/derekanddora'>
+          <img src='/static/icon_zola.svg' className='btn-icon' alt='' />
+          <span className='btn-cta'>Browse Zola</span>
+        </Link>
         <style jsx>{`
           .registry {
             grid-area: registry;
@@ -24,12 +26,12 @@ class Registry extends React.Component {
             align-items: center;
           }
           .registry h3 {
-            margin: 24px 0;
-          }
-          .registry img {
-            display: block;
-            width: 50px;
             margin-top: 8px;
+            margin-bottom: 16px;
+          }
+          .btn-icon {
+            width: 30px;
+            margin-right: 8px;
           }
         `}</style>
       </section>
