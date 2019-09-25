@@ -103,8 +103,7 @@ class Home extends React.Component {
             --color-gray-light: #F3F3F3;
             --color-green-dark: #29341B;
             --color-green-medium: #9DB580;
-            --color-green-light: #c2d1b0;
-            --color-grue: #5A685B;
+            --color-blue-medium: #336081;
             --color-black: #000000;
             --color-white: #FFFFFF;
           }

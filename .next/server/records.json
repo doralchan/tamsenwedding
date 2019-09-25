@@ -25,27 +25,36 @@
   },
   "chunks": {
     "byName": {
-      "static/Xoe8tAFtgwtpum8pYds3v/pages/_app.js": 0,
-      "static/Xoe8tAFtgwtpum8pYds3v/pages/_document.js": 1,
-      "static/Xoe8tAFtgwtpum8pYds3v/pages/_error.js": 2,
-      "static/Xoe8tAFtgwtpum8pYds3v/pages/_footer.js": 3,
-      "static/Xoe8tAFtgwtpum8pYds3v/pages/_gallery.js": 4,
-      "static/Xoe8tAFtgwtpum8pYds3v/pages/_intro.js": 5,
-      "static/Xoe8tAFtgwtpum8pYds3v/pages/_registry.js": 6,
-      "static/Xoe8tAFtgwtpum8pYds3v/pages/_travel.js": 7,
-      "static/Xoe8tAFtgwtpum8pYds3v/pages/index.js": 8
+      "static/9sm86fXP9PJPrTdSbJfyg/pages/_app.js": 0,
+      "static/9sm86fXP9PJPrTdSbJfyg/pages/_document.js": 1,
+      "static/9sm86fXP9PJPrTdSbJfyg/pages/_error.js": 2,
+      "static/9sm86fXP9PJPrTdSbJfyg/pages/_footer.js": 3,
+      "static/9sm86fXP9PJPrTdSbJfyg/pages/_gallery.js": 4,
+      "static/9sm86fXP9PJPrTdSbJfyg/pages/_intro.js": 5,
+      "static/9sm86fXP9PJPrTdSbJfyg/pages/_registry.js": 6,
+      "static/9sm86fXP9PJPrTdSbJfyg/pages/_travel.js": 7,
+      "static/9sm86fXP9PJPrTdSbJfyg/pages/index.js": 8,
+      "static/LoQi2uWUrIQbuHcy_ucp2/pages/_app.js": 9,
+      "static/LoQi2uWUrIQbuHcy_ucp2/pages/_document.js": 10,
+      "static/LoQi2uWUrIQbuHcy_ucp2/pages/_error.js": 11,
+      "static/LoQi2uWUrIQbuHcy_ucp2/pages/_footer.js": 12,
+      "static/LoQi2uWUrIQbuHcy_ucp2/pages/_gallery.js": 13,
+      "static/LoQi2uWUrIQbuHcy_ucp2/pages/_intro.js": 14,
+      "static/LoQi2uWUrIQbuHcy_ucp2/pages/_registry.js": 15,
+      "static/LoQi2uWUrIQbuHcy_ucp2/pages/_travel.js": 16,
+      "static/LoQi2uWUrIQbuHcy_ucp2/pages/index.js": 17
     },
     "bySource": {},
     "usedIds": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      9
     ]
   }
 }

@@ -6,27 +6,27 @@ class Link extends React.Component {
     children: PropTypes.node.isRequired,
     className: PropTypes.string,
     linkTo: PropTypes.string,
-    linkType: PropTypes.oneOf(['text', 'btn'])
+    linkType: PropTypes.oneOf(['link-text', 'link-btn'])
   }
 
   static defaultProps = {
-    linkType: 'text'
+    linkType: 'link-text'
   }
 
   render() {
-    const linkClasses = classNames('link', this.props.className);
-    const btnClasses = classNames('btn', this.props.className);
+    const textClasses = classNames('link-text', this.props.className);
+    const btnClasses = classNames('link-btn', this.props.className);
 
     return (
-      <a href={ this.props.linkTo } className={ this.props.linkType === 'text' ? linkClasses : btnClasses } target='_blank' >
+      <a href={ this.props.linkTo } className={ this.props.linkType === 'link-text' ? textClasses : btnClasses } target='_blank' >
         { this.props.children }
         <style jsx>{`
-          .link {
+          .link-text {
             text-decoration: none;
             font-weight: 400;
             color: var(--color-green-medium);
           }
-          .btn {
+          .link-btn {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -35,13 +35,14 @@ class Link extends React.Component {
             text-decoration: none;
             font-weight: 600;
             text-transform: uppercase;
-            background-color: var(--color-white);
-            color: var(--color-green-dark);
+            border: 2px solid var(--color-green-medium);
+            color: var(--color-green-medium);
             letter-spacing: 0.1em;
-            border: 0;
             text-rendering: optimizeLegibility;
             font-size: 0.9em;
-            min-width: 220px;
+            min-width: 240px;
+            box-sizing: border-box;
+            margin: 8px;
           }
         `}</style>
       </a>
