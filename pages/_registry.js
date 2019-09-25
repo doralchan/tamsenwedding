@@ -11,10 +11,10 @@ class Registry extends React.Component {
       <section id='registry' className='registry'>
         <h3>Registries</h3>
         <div className='registry-cta'>
-          <Link linkType='btn' linkTo='https://www.zola.com/registry/derekanddora'>
+          <Link linkType='link-btn' linkTo='https://www.zola.com/registry/derekanddora'>
             Browse Zola
           </Link>
-          <Link linkType='btn' linkTo='https://www.amazon.com/wedding/share/doraderek'>
+          <Link linkType='link-btn' linkTo='https://www.amazon.com/wedding/share/doraderek'>
             Browse Amazon
           </Link>
         </div>
