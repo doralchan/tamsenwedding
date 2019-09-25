@@ -7,7 +7,7 @@ class Footer extends React.Component {
       <footer className='footer'>
         <div className='footer-image' />
         <div className='footer-content'>
-          © Made by Dora Soon To Be Tamsen
+          © Made by Dora
         </div>
         <style jsx>{`
           .footer {
