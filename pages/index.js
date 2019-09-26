@@ -118,7 +118,7 @@ class Home extends React.Component {
             height: 100vh;
           }
 
-          h1, h2, h3, h4, h5, h6 {
+          h4, h5, h6 {
             text-transform: uppercase;
             letter-spacing: 0.1em;
           }
@@ -130,7 +130,7 @@ class Home extends React.Component {
           }
 
           h1 {
-            font-size: 2.010em;
+            font-size: 2.510em;
           }
           h2 {
             font-size: 1.853em;
@@ -197,7 +197,7 @@ class Home extends React.Component {
               font-size: 4.052em;
             }
             h2 {
-              font-size: 2.010em;
+              font-size: 2.510em;
             }
             h3 {
               font-size: 1.853em;
