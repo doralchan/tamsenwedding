@@ -58,7 +58,7 @@ class TextArea extends React.Component {
             font-weight: 200;
           }
           .input-textarea:focus {
-            border-color: var(--color-green);
+            border-color: var(--color-green-light);
           }
         `}</style>
       </label>

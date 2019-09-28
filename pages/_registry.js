@@ -21,7 +21,7 @@ class Registry extends React.Component {
         <style jsx>{`
           .registry {
             grid-area: registry;
-            background-color: var(--color-green-dark);
+            background-color: var(--color-green);
             color: var(--color-white);
             padding: 40px 32px;
             text-align: center;

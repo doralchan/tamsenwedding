@@ -24,7 +24,7 @@ class Navigation extends React.Component {
             list-style: none;
             cursor: pointer;
             font-weight: 400;
-            color: var(--color-green);
+            color: var(--color-green-light);
           }
 
           @media (min-width: 992px) {
