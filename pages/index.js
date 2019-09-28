@@ -95,7 +95,8 @@ class Home extends React.Component {
           <Footer />
         </div>
         <style jsx global>{`
-          @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Poppins:200,300,400,600&display=swap');
+          @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,600&display=swap');
+          @import url(/static/coniferous-reg.otf);
 
           :root {
             --color-gray-dark: #BABABA;
@@ -125,19 +126,19 @@ class Home extends React.Component {
           }
 
           h1, h2, h3, h4, h5 {
-            font-family: 'Libre Baskerville', serif;
-            font-weight: 700;
-            margin: 8px 0;
+            font-family: 'Coniferous', serif;
+            font-weight: 400;
+            margin: 0;
           }
 
           h1 {
-            font-size: 2.510em;
+            font-size: 4.768em;
           }
           h2 {
-            font-size: 1.853em;
+            font-size: 3.015em;
           }
           h3 {
-            font-size: 1.563em;
+            font-size: 2.441em;
           }
           h4 {
             font-size: 1.25em;
@@ -195,16 +196,16 @@ class Home extends React.Component {
             }
 
             h1 {
-              font-size: 4.052em;
+              font-size: 5.96em;
             }
             h2 {
-              font-size: 2.510em;
+              font-size: 4.768em;
             }
             h3 {
-              font-size: 1.853em;
+              font-size: 3.015em;
             }
             h4 {
-              font-size: 1.563em;
+              font-size: 2.441em;
             }
             h5 {
               font-size: 1.25em;
