@@ -24,7 +24,7 @@ class Link extends React.Component {
           .link-text {
             text-decoration: none;
             font-weight: 400;
-            color: var(--color-green-light);
+            color: var(--color-coral);
           }
           .link-btn,
           .link-btn:after,
@@ -40,8 +40,8 @@ class Link extends React.Component {
           	text-decoration: none;
           	font-weight: 600;
           	text-transform: uppercase;
-          	border: 2px solid var(--color-green-light);
-          	color: var(--color-green-light);
+          	border: 2px solid var(--color-yellow);
+          	color: var(--color-yellow);
           	letter-spacing: 0.1em;
           	text-rendering: optimizeLegibility;
           	font-size: 0.8em;

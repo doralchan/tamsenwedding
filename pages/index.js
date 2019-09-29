@@ -99,15 +99,20 @@ class Home extends React.Component {
           @import url(/static/coniferous-reg.otf);
 
           :root {
-            --color-gray-dark: #BABABA;
-            --color-gray: #D8D8D8;
-            --color-gray-light: #F3F3F3;
-            --color-green-dark: #29341B;
-            --color-green: #3A442E;
-            --color-green-light: #9DB580;
             --color-black: #000000;
             --color-black-light: #252525;
             --color-white: #FFFFFF;
+
+            --color-gray-dark: #BCC5C5;
+            --color-gray: #E0E6E0;
+            --color-gray-light: #F3F3F3;
+
+            --color-green-dark: #29341B;
+            --color-green: #3A442E;
+            --color-green-light: #9DB580;
+
+            --color-yellow: #EEBA57;
+            --color-coral: #C56241;
           }
 
           body {
