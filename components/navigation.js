@@ -14,11 +14,13 @@ class Navigation extends React.Component {
             width: 100%;
             z-index: 1;
           }
+
           .nav-list {
             display: flex;
             justify-content: space-around;
             padding: 0;
           }
+
           .nav-list-item {
             display: block;
             list-style: none;
@@ -28,16 +30,16 @@ class Navigation extends React.Component {
           }
 
           @media (min-width: 992px) {
+
             .nav {
-              position: absolute;
-              right: 0;
-              top: 80px;
-              width: auto;
+              display: flex;
+              justify-content: flex-end;
             }
+
             .nav-list {
-              flex-direction: column;
-              text-align: right;
+              width: 400px;
             }
+
           }
         `}</style>
       </nav>

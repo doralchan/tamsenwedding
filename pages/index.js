@@ -80,7 +80,7 @@ class Home extends React.Component {
       <div className='container'>
         <Head>
           <title>Tamsen Wedding</title>
-          <link rel="shortcut icon" href="/static/favicon-pine.ico"/>
+          <link rel="shortcut icon" href="/static/favicon.ico"/>
         </Head>
         { this.renderHoneypot() }
         <div className='container-sections'>
@@ -132,8 +132,9 @@ class Home extends React.Component {
 
           h1, h2, h3, h4, h5 {
             font-family: 'Coniferous', serif;
-            font-weight: 400;
+            font-weight: 500;
             margin: 0;
+            line-height: 110%;
           }
 
           h1 {
@@ -161,7 +162,6 @@ class Home extends React.Component {
             display: flex;
             justify-content: center;
             align-items: center;
-            max-width: 1600px;
             margin: 0 auto;
           }
 
@@ -201,7 +201,7 @@ class Home extends React.Component {
             }
 
             h1 {
-              font-size: 5.96em;
+              font-size: 6.96em;
             }
             h2 {
               font-size: 4.768em;

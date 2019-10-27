@@ -15,16 +15,25 @@ class Footer extends React.Component {
           }
 
           .footer-image {
-            height: 160px;
-            background-size: auto 160px,cover;
-            background-image: url(/static/icon_forest.png);
+            height: 140px;
+            background-size: auto 140px,cover;
+            background-image: url(/static/icon_forest.svg);
             background-position: top center;
             background-repeat: repeat-x;
           }
 
           .footer-content {
-            padding: 24px;
+            padding: 40px;
             text-align: center;
+          }
+
+          @media (min-width: 992px) {
+
+            .footer-image {
+              height: 160px;
+              background-size: auto 160px,cover;
+            }
+
           }
 
         `}</style>
