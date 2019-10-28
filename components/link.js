@@ -36,15 +36,12 @@ class Link extends React.Component {
             justify-content: center;
             align-items: center;
             height: 60px;
-          	font-family: inherit;
+            font-size: inherit;
+            font-weight: 500;
           	text-decoration: none;
-          	font-weight: 600;
-          	text-transform: uppercase;
           	border: 2px solid var(--color-yellow);
           	color: var(--color-yellow);
-          	letter-spacing: 0.1em;
           	text-rendering: optimizeLegibility;
-          	font-size: 0.8em;
           	box-sizing: border-box;
           	margin: 8px;
           	position: relative;

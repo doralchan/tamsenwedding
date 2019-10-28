@@ -112,7 +112,9 @@ class Home extends React.Component {
             --color-green-light: #9DB580;
 
             --color-yellow: #EEBA57;
+
             --color-coral: #C56241;
+            --color-coral-light: #CE6F55;
           }
 
           body {
@@ -125,7 +127,7 @@ class Home extends React.Component {
             height: 100vh;
           }
 
-          h4, h5, h6 {
+          h6 {
             text-transform: uppercase;
             letter-spacing: 0.1em;
           }
@@ -201,7 +203,7 @@ class Home extends React.Component {
             }
 
             h1 {
-              font-size: 6.96em;
+              font-size: 7.46em;
             }
             h2 {
               font-size: 4.768em;

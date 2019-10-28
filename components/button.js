@@ -28,16 +28,13 @@ class Button extends React.Component {
           }
           .btn {
             height: 60px;
-            font-family: inherit;
-            font-weight: 600;
-            text-transform: uppercase;
-            border: 2px solid var(--color-black-light);
-            background-color: var(--color-black-light);
+            font-weight: 500;
+            font-size: inherit;
+            border: 2px solid var(--color-coral-light);
+            background-color: var(--color-coral-light);
             color: var(--color-white);
-            letter-spacing: 0.1em;
             text-rendering: optimizeLegibility;
             box-sizing: border-box;
-            font-size: 0.8em;
             min-width: 200px;
             position: relative;
             overflow: hidden;
@@ -47,13 +44,13 @@ class Button extends React.Component {
           }
           .btn:before,
           .btn:after {
-            background-color: var(--color-black);
+            background-color: var(--color-coral);
             content: '';
             position: absolute;
             z-index: -1;
           }
           .btn:hover {
-            border-color: var(--color-black);
+            border-color: var(--color-coral);
             cursor: pointer;
             z-index: 2;
           }

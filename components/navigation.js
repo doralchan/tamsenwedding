@@ -34,6 +34,8 @@ class Navigation extends React.Component {
             .nav {
               display: flex;
               justify-content: flex-end;
+              align-items: center;
+              min-height: 100px;
             }
 
             .nav-list {

@@ -8,56 +8,72 @@ class Intro extends React.Component {
     return (
       <header className='intro'>
         <Navigation />
-        <div>
-          <div className='intro-header'>
-            <h6>Join us on Sunday, May 17th at 3:00 PM</h6>
+        <div className='intro-header'>
+          <div className='intro-header-title'>
+            <h6>Join us Sunday, May 17th at 3:00 PM</h6>
             <h1>Dora & Derek</h1>
           </div>
-          <div className='intro-image'>
+          <div className='intro-header-image'>
             <img src='/static/icon_trees.svg' alt='' />
           </div>
-          <div className='intro-description'>
-            You've been invited to our little wedding! We found each other ~3 years ago and had one of our first dates catching Pokemon in Golden Gate Park. It was clear we were meant to be. Since then, we've been on an epic journey, picking up a little Noe Valley home and idiosycratic cats on the way. We hope you can celebrate with us on Sunday, May 17th. 
+          <div className='intro-header-description'>
+            You've been invited to our little wedding! We found each other more than 3 years ago and had one of our first dates catching Pokemon in Golden Gate Park. It was clear we were meant to be. Since then, we've been on an epic journey, picking up a Noe Valley fixer upper and idiosycratic tuxedo cats on the way. We hope you can celebrate with us on Sunday, May 17th!
           </div>
         </div>
         <style jsx>{`
           .intro {
             grid-area: intro;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            min-height: 60vh;
+            height: auto;
           }
 
           .intro-header {
-            text-align: center;
-            margin-top: 56px;
+            margin-top: 8vh;
           }
 
-          .intro-description {
-            margin-top: 24px;
-            margin-bottom: 24px;
+          .intro-header-title {
+            text-align: center;
+          }
+
+          .intro-header-description {
+            margin-top: 20px;
           }
 
           @media (min-width: 992px) {
 
             .intro {
-              min-height: 100vh;
+              height: 85vh;
+              min-height: 700px;
+              max-height: 800px;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-around;
               align-items: center;
             }
 
             .intro-header {
+              max-width: 1000px;
+              margin-top: 48px;
+            }
+
+            .intro-header-title {
               text-align: left;
             }
 
-            .intro-image {
-              z-index: -1;
-              margin-top: -50px;
+            .intro-header-image {
+              position: relative;
+              height: 220px;
+              width: 100%;
             }
 
-            .intro-description {
+            .intro-header-image img {
+              position: absolute;
+              z-index: -1;
+              bottom: 0;
+            }
+
+            .intro-header-description {
               column-count: 2;
+              margin-top: 40px;
             }
 
           }
