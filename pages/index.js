@@ -96,7 +96,6 @@ class Home extends React.Component {
         </div>
         <style jsx global>{`
           @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,600&display=swap');
-          @import url(/static/coniferous-reg.otf);
 
           :root {
             --color-black: #000000;
@@ -115,6 +114,11 @@ class Home extends React.Component {
 
             --color-coral: #C56241;
             --color-coral-light: #CE6F55;
+          }
+
+          @font-face {
+            font-family: 'Coniferous';
+            src: url('/static/coniferous-reg.otf');
           }
 
           body {
