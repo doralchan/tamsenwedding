@@ -118,7 +118,7 @@ class Home extends React.Component {
 
           @font-face {
             font-family: 'Coniferous';
-            src: url('/static/coniferous-reg.otf');
+            src: url('/static/coniferous-med.otf');
           }
 
           body {
