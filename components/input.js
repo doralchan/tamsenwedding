@@ -60,7 +60,7 @@ class Input extends React.Component {
             font-weight: 200;
           }
           .input-text:focus {
-            border-color: var(--color-green-light);
+            border-color: var(--color-coral-light);
           }
           .input-text:focus {
             outline: none;

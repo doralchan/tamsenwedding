@@ -17,7 +17,7 @@ class Intro extends React.Component {
             <img src='/static/icon_trees.svg' alt='' />
           </div>
           <div className='intro-header-description'>
-            You've been invited to our little wedding! We found each other more than 3 years ago and had one of our first dates catching Pokemon in Golden Gate Park. It was clear we were meant to be. Since then, we've been on an epic journey, picking up a Noe Valley fixer upper and idiosycratic tuxedo cats on the way. We hope you can celebrate with us on Sunday, May 17th!
+            You've been invited to our little wedding in Mill Valley! We found each other ~3 years ago and had one of our first dates catching Pokemon in Golden Gate Park. It was clear we were meant to be. Since then, we've been on an epic journey, traveling everywhere from the temples of Kyoto to the villages of Cinque Terre. We've also picked up a Noe Valley fixer upper and tuxedo cats on the way. We're ready to officially kick off the next chapter in our lives so please join us on May 17th at The Outdoor Art Club!
           </div>
         </div>
         <style jsx>{`
@@ -51,7 +51,7 @@ class Intro extends React.Component {
             }
 
             .intro-header {
-              max-width: 1000px;
+              max-width: 1050px;
               margin-top: 48px;
             }
 
