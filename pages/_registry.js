@@ -17,27 +17,39 @@ class Registry extends React.Component {
           <Link linkType='link-btn' linkTo='https://www.amazon.com/wedding/share/doraderek'>
             Browse Amazon
           </Link>
+          <Link linkType='link-btn' linkTo='https://www.heathceramics.com/apps/giftregistry/registry/86295?shared_url=true'>
+            Browse Heath
+          </Link>
         </div>
         <style jsx>{`
           .registry {
             grid-area: registry;
             background-color: var(--color-green);
             color: var(--color-white);
-            padding: 40px 32px;
+            padding: 40px;
             text-align: center;
             display: flex;
             flex-direction: column;
             align-items: center;
           }
+
           .registry h3 {
             margin-top: 8px;
             margin-bottom: 8px;
           }
 
+          .registry-cta {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+
           @media (min-width: 992px) {
 
             .registry-cta {
-              display: flex;
+              flex-direction: row;
+              justify-content: center;
             }
 
           }

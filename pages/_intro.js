@@ -27,21 +27,26 @@ class Intro extends React.Component {
           }
 
           .intro-header {
-            margin-top: 8vh;
+            margin-top: 28vh;
           }
 
           .intro-header-title {
             text-align: center;
           }
 
+          .intro-header-image {
+            margin-bottom: 28vh;
+          }
+
           .intro-header-description {
             margin-top: 20px;
+            order: 3;
           }
 
           @media (min-width: 992px) {
 
             .intro {
-              height: 85vh;
+              height: 89vh;
               min-height: 700px;
               max-height: 800px;
               display: flex;
@@ -52,7 +57,7 @@ class Intro extends React.Component {
 
             .intro-header {
               max-width: 1050px;
-              margin-top: 48px;
+              margin: 0;
             }
 
             .intro-header-title {
@@ -60,6 +65,7 @@ class Intro extends React.Component {
             }
 
             .intro-header-image {
+              margin: 0;
               position: relative;
               height: 220px;
               width: 100%;

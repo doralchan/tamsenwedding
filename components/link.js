@@ -46,7 +46,8 @@ class Link extends React.Component {
           	margin: 8px;
           	position: relative;
           	overflow: hidden;
-          	width: 250px;
+          	width: 100%;
+            max-width: 260px;
           }
           .link-btn:before,
           .link-btn:after {
