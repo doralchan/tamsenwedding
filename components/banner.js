@@ -8,8 +8,8 @@ class Banner extends React.Component {
         Yay! We'll see your lovely faces soon.
         <style jsx>{`
           .banner {
-            background-color: var(--color-green-light);
-            color: var(--color-green-dark);
+            background-color: var(--color-yellow);
+            color: var(--color-black-light);
             padding: 10px 16px;
             border-radius: 4px;
             margin-top: 24px;
