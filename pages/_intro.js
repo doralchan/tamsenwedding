@@ -23,11 +23,10 @@ class Intro extends React.Component {
         <style jsx>{`
           .intro {
             grid-area: intro;
-            height: auto;
           }
 
           .intro-header {
-            margin-top: 28vh;
+            margin-top: 26vh;
           }
 
           .intro-header-title {

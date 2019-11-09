@@ -1,0 +1,35 @@
+{
+  "modules": {
+    "byIdentifier": {},
+    "usedIds": {}
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "static/_oW8l6VZ0h4XX1ek1IIAh/pages/_app.js": 2,
+      "static/_oW8l6VZ0h4XX1ek1IIAh/pages/_error.js": 3,
+      "static/_oW8l6VZ0h4XX1ek1IIAh/pages/_footer.js": 4,
+      "static/_oW8l6VZ0h4XX1ek1IIAh/pages/_gallery.js": 5,
+      "static/_oW8l6VZ0h4XX1ek1IIAh/pages/_intro.js": 6,
+      "static/_oW8l6VZ0h4XX1ek1IIAh/pages/_registry.js": 7,
+      "static/_oW8l6VZ0h4XX1ek1IIAh/pages/_travel.js": 8,
+      "static/_oW8l6VZ0h4XX1ek1IIAh/pages/index.js": 9,
+      "static/runtime/main.js": 10
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}

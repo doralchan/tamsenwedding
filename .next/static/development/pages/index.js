@@ -6994,7 +6994,7 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("header", {
-        className: "jsx-2964902116" + " " + 'intro',
+        className: "jsx-282756262" + " " + 'intro',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 9
@@ -7007,35 +7007,35 @@ function (_React$Component) {
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-2964902116" + " " + 'intro-header',
+        className: "jsx-282756262" + " " + 'intro-header',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 11
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-2964902116" + " " + 'intro-header-title',
+        className: "jsx-282756262" + " " + 'intro-header-title',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 12
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h6", {
-        className: "jsx-2964902116",
+        className: "jsx-282756262",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 13
         },
         __self: this
       }, "Join us Sunday, May 17th at 3:00 PM"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", {
-        className: "jsx-2964902116",
+        className: "jsx-282756262",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 14
         },
         __self: this
       }, "Dora & Derek")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-2964902116" + " " + 'intro-header-image',
+        className: "jsx-282756262" + " " + 'intro-header-image',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
@@ -7044,23 +7044,23 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
         src: "/static/icon_trees.svg",
         alt: "",
-        className: "jsx-2964902116",
+        className: "jsx-282756262",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 17
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-2964902116" + " " + 'intro-header-description',
+        className: "jsx-282756262" + " " + 'intro-header-description',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 19
         },
         __self: this
       }, "You've been invited to our little wedding in Mill Valley! We found each other ~3 years ago and had one of our first dates catching Pokemon in Golden Gate Park. It was clear we were meant to be. Since then, we've been on an epic journey, traveling everywhere from the temples of Kyoto to the villages of Cinque Terre. We've also picked up a Noe Valley fixer upper and tuxedo cats on the way. We're ready to officially kick off the next chapter in our lives so please join us on May 17th at The Outdoor Art Club!")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
-        id: "2964902116",
+        id: "282756262",
         __self: this
-      }, ".intro.jsx-2964902116{grid-area:intro;height:auto;}.intro-header.jsx-2964902116{margin-top:28vh;}.intro-header-title.jsx-2964902116{text-align:center;}.intro-header-image.jsx-2964902116{margin-bottom:28vh;}.intro-header-description.jsx-2964902116{margin-top:20px;-webkit-order:3;-ms-flex-order:3;order:3;}@media (min-width:992px){.intro.jsx-2964902116{height:91vh;min-height:700px;max-height:800px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:space-around;-webkit-justify-content:space-around;-ms-flex-pack:space-around;justify-content:space-around;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.intro-header.jsx-2964902116{max-width:1050px;margin:0;}.intro-header-title.jsx-2964902116{text-align:left;}.intro-header-image.jsx-2964902116{margin:0;position:relative;height:220px;width:100%;}.intro-header-image.jsx-2964902116 img.jsx-2964902116{position:absolute;z-index:-1;bottom:0;}.intro-header-description.jsx-2964902116{-webkit-column-count:2;column-count:2;margin-top:40px;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kb3JhY2hhbi93b3Jrc3BhY2UvdGFtc2Vud2VkZGluZy9wYWdlcy9faW50cm8uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBc0JvQixBQUc2QixBQUtBLEFBSUUsQUFJQyxBQUlILEFBT0YsQUFVSyxBQUtELEFBSVAsQUFPUyxBQU1ILFNBWkcsR0FuQkQsSUF4QlAsQUFLZCxBQVlVLEFBc0JSLENBTFcsQ0F6QmIsQUF5Q2UsQ0FyQ2YsT0FzQkUsQ0FTZSxDQTNDakIsQ0F3QnFCLEFBMEJSLFNBQ1gsQUFJa0IsRUFYTCxNQW5CRSxLQW9CZixHQVdBLEdBdkNGLCtEQVMwQiw4RUFDTywySEFDViw2RkFDckIiLCJmaWxlIjoiL1VzZXJzL2RvcmFjaGFuL3dvcmtzcGFjZS90YW1zZW53ZWRkaW5nL3BhZ2VzL19pbnRyby5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcyc7XG5pbXBvcnQgY2xhc3NOYW1lcyBmcm9tICdjbGFzc25hbWVzJztcblxuaW1wb3J0IE5hdmlnYXRpb24gZnJvbSAnLi4vY29tcG9uZW50cy9uYXZpZ2F0aW9uJztcblxuY2xhc3MgSW50cm8gZXh0ZW5kcyBSZWFjdC5Db21wb25lbnQge1xuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxoZWFkZXIgY2xhc3NOYW1lPSdpbnRybyc+XG4gICAgICAgIDxOYXZpZ2F0aW9uIC8+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdpbnRyby1oZWFkZXInPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdpbnRyby1oZWFkZXItdGl0bGUnPlxuICAgICAgICAgICAgPGg2PkpvaW4gdXMgU3VuZGF5LCBNYXkgMTd0aCBhdCAzOjAwIFBNPC9oNj5cbiAgICAgICAgICAgIDxoMT5Eb3JhICYgRGVyZWs8L2gxPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdpbnRyby1oZWFkZXItaW1hZ2UnPlxuICAgICAgICAgICAgPGltZyBzcmM9Jy9zdGF0aWMvaWNvbl90cmVlcy5zdmcnIGFsdD0nJyAvPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdpbnRyby1oZWFkZXItZGVzY3JpcHRpb24nPlxuICAgICAgICAgICAgWW91J3ZlIGJlZW4gaW52aXRlZCB0byBvdXIgbGl0dGxlIHdlZGRpbmcgaW4gTWlsbCBWYWxsZXkhIFdlIGZvdW5kIGVhY2ggb3RoZXIgfjMgeWVhcnMgYWdvIGFuZCBoYWQgb25lIG9mIG91ciBmaXJzdCBkYXRlcyBjYXRjaGluZyBQb2tlbW9uIGluIEdvbGRlbiBHYXRlIFBhcmsuIEl0IHdhcyBjbGVhciB3ZSB3ZXJlIG1lYW50IHRvIGJlLiBTaW5jZSB0aGVuLCB3ZSd2ZSBiZWVuIG9uIGFuIGVwaWMgam91cm5leSwgdHJhdmVsaW5nIGV2ZXJ5d2hlcmUgZnJvbSB0aGUgdGVtcGxlcyBvZiBLeW90byB0byB0aGUgdmlsbGFnZXMgb2YgQ2lucXVlIFRlcnJlLiBXZSd2ZSBhbHNvIHBpY2tlZCB1cCBhIE5vZSBWYWxsZXkgZml4ZXIgdXBwZXIgYW5kIHR1eGVkbyBjYXRzIG9uIHRoZSB3YXkuIFdlJ3JlIHJlYWR5IHRvIG9mZmljaWFsbHkga2ljayBvZmYgdGhlIG5leHQgY2hhcHRlciBpbiBvdXIgbGl2ZXMgc28gcGxlYXNlIGpvaW4gdXMgb24gTWF5IDE3dGggYXQgVGhlIE91dGRvb3IgQXJ0IENsdWIhXG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8c3R5bGUganN4PntgXG4gICAgICAgICAgLmludHJvIHtcbiAgICAgICAgICAgIGdyaWQtYXJlYTogaW50cm87XG4gICAgICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmludHJvLWhlYWRlciB7XG4gICAgICAgICAgICBtYXJnaW4tdG9wOiAyOHZoO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5pbnRyby1oZWFkZXItdGl0bGUge1xuICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5pbnRyby1oZWFkZXItaW1hZ2Uge1xuICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogMjh2aDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAuaW50cm8taGVhZGVyLWRlc2NyaXB0aW9uIHtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDIwcHg7XG4gICAgICAgICAgICBvcmRlcjogMztcbiAgICAgICAgICB9XG5cbiAgICAgICAgICBAbWVkaWEgKG1pbi13aWR0aDogOTkycHgpIHtcblxuICAgICAgICAgICAgLmludHJvIHtcbiAgICAgICAgICAgICAgaGVpZ2h0OiA5MXZoO1xuICAgICAgICAgICAgICBtaW4taGVpZ2h0OiA3MDBweDtcbiAgICAgICAgICAgICAgbWF4LWhlaWdodDogODAwcHg7XG4gICAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYXJvdW5kO1xuICAgICAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAuaW50cm8taGVhZGVyIHtcbiAgICAgICAgICAgICAgbWF4LXdpZHRoOiAxMDUwcHg7XG4gICAgICAgICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgLmludHJvLWhlYWRlci10aXRsZSB7XG4gICAgICAgICAgICAgIHRleHQtYWxpZ246IGxlZnQ7XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgICAgIC5pbnRyby1oZWFkZXItaW1hZ2Uge1xuICAgICAgICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgICAgICAgaGVpZ2h0OiAyMjBweDtcbiAgICAgICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgICAgIC5pbnRyby1oZWFkZXItaW1hZ2UgaW1nIHtcbiAgICAgICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgICAgICAgICB6LWluZGV4OiAtMTtcbiAgICAgICAgICAgICAgYm90dG9tOiAwO1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAuaW50cm8taGVhZGVyLWRlc2NyaXB0aW9uIHtcbiAgICAgICAgICAgICAgY29sdW1uLWNvdW50OiAyO1xuICAgICAgICAgICAgICBtYXJnaW4tdG9wOiA0MHB4O1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgfVxuICAgICAgICBgfTwvc3R5bGU+XG4gICAgICA8L2hlYWRlcj5cbiAgICApXG4gIH1cblxufVxuXG5leHBvcnQgZGVmYXVsdCBJbnRyb1xuIl19 */\n/*@ sourceURL=/Users/dorachan/workspace/tamsenwedding/pages/_intro.js */"));
+      }, ".intro.jsx-282756262{grid-area:intro;}.intro-header.jsx-282756262{margin-top:26vh;}.intro-header-title.jsx-282756262{text-align:center;}.intro-header-image.jsx-282756262{margin-bottom:28vh;}.intro-header-description.jsx-282756262{margin-top:20px;-webkit-order:3;-ms-flex-order:3;order:3;}@media (min-width:992px){.intro.jsx-282756262{height:91vh;min-height:700px;max-height:800px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:space-around;-webkit-justify-content:space-around;-ms-flex-pack:space-around;justify-content:space-around;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.intro-header.jsx-282756262{max-width:1050px;margin:0;}.intro-header-title.jsx-282756262{text-align:left;}.intro-header-image.jsx-282756262{margin:0;position:relative;height:220px;width:100%;}.intro-header-image.jsx-282756262 img.jsx-282756262{position:absolute;z-index:-1;bottom:0;}.intro-header-description.jsx-282756262{-webkit-column-count:2;column-count:2;margin-top:40px;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kb3JhY2hhbi93b3Jrc3BhY2UvdGFtc2Vud2VkZGluZy9wYWdlcy9faW50cm8uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBc0JvQixBQUc2QixBQUlBLEFBSUUsQUFJQyxBQUlILEFBT0YsQUFVSyxBQUtELEFBSVAsQUFPUyxBQU1ILFNBWkcsR0FuQkQsSUF2QnJCLEFBSUEsQUFZVSxBQXNCUixDQUxXLENBekJiLEFBeUNlLENBckNmLE9Bc0JFLENBU2UsRUFuQkksQUEwQlIsU0FDWCxBQUlrQixFQVhMLE1BbkJFLEtBb0JmLEdBV0EsR0F2Q0YsK0RBUzBCLDhFQUNPLDJIQUNWLDZGQUNyQiIsImZpbGUiOiIvVXNlcnMvZG9yYWNoYW4vd29ya3NwYWNlL3RhbXNlbndlZGRpbmcvcGFnZXMvX2ludHJvLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFByb3BUeXBlcyBmcm9tICdwcm9wLXR5cGVzJztcbmltcG9ydCBjbGFzc05hbWVzIGZyb20gJ2NsYXNzbmFtZXMnO1xuXG5pbXBvcnQgTmF2aWdhdGlvbiBmcm9tICcuLi9jb21wb25lbnRzL25hdmlnYXRpb24nO1xuXG5jbGFzcyBJbnRybyBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCB7XG4gIHJlbmRlcigpIHtcbiAgICByZXR1cm4gKFxuICAgICAgPGhlYWRlciBjbGFzc05hbWU9J2ludHJvJz5cbiAgICAgICAgPE5hdmlnYXRpb24gLz5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9J2ludHJvLWhlYWRlcic+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9J2ludHJvLWhlYWRlci10aXRsZSc+XG4gICAgICAgICAgICA8aDY+Sm9pbiB1cyBTdW5kYXksIE1heSAxN3RoIGF0IDM6MDAgUE08L2g2PlxuICAgICAgICAgICAgPGgxPkRvcmEgJiBEZXJlazwvaDE+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9J2ludHJvLWhlYWRlci1pbWFnZSc+XG4gICAgICAgICAgICA8aW1nIHNyYz0nL3N0YXRpYy9pY29uX3RyZWVzLnN2ZycgYWx0PScnIC8+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9J2ludHJvLWhlYWRlci1kZXNjcmlwdGlvbic+XG4gICAgICAgICAgICBZb3UndmUgYmVlbiBpbnZpdGVkIHRvIG91ciBsaXR0bGUgd2VkZGluZyBpbiBNaWxsIFZhbGxleSEgV2UgZm91bmQgZWFjaCBvdGhlciB+MyB5ZWFycyBhZ28gYW5kIGhhZCBvbmUgb2Ygb3VyIGZpcnN0IGRhdGVzIGNhdGNoaW5nIFBva2Vtb24gaW4gR29sZGVuIEdhdGUgUGFyay4gSXQgd2FzIGNsZWFyIHdlIHdlcmUgbWVhbnQgdG8gYmUuIFNpbmNlIHRoZW4sIHdlJ3ZlIGJlZW4gb24gYW4gZXBpYyBqb3VybmV5LCB0cmF2ZWxpbmcgZXZlcnl3aGVyZSBmcm9tIHRoZSB0ZW1wbGVzIG9mIEt5b3RvIHRvIHRoZSB2aWxsYWdlcyBvZiBDaW5xdWUgVGVycmUuIFdlJ3ZlIGFsc28gcGlja2VkIHVwIGEgTm9lIFZhbGxleSBmaXhlciB1cHBlciBhbmQgdHV4ZWRvIGNhdHMgb24gdGhlIHdheS4gV2UncmUgcmVhZHkgdG8gb2ZmaWNpYWxseSBraWNrIG9mZiB0aGUgbmV4dCBjaGFwdGVyIGluIG91ciBsaXZlcyBzbyBwbGVhc2Ugam9pbiB1cyBvbiBNYXkgMTd0aCBhdCBUaGUgT3V0ZG9vciBBcnQgQ2x1YiFcbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICAuaW50cm8ge1xuICAgICAgICAgICAgZ3JpZC1hcmVhOiBpbnRybztcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAuaW50cm8taGVhZGVyIHtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDI2dmg7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmludHJvLWhlYWRlci10aXRsZSB7XG4gICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmludHJvLWhlYWRlci1pbWFnZSB7XG4gICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAyOHZoO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5pbnRyby1oZWFkZXItZGVzY3JpcHRpb24ge1xuICAgICAgICAgICAgbWFyZ2luLXRvcDogMjBweDtcbiAgICAgICAgICAgIG9yZGVyOiAzO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIEBtZWRpYSAobWluLXdpZHRoOiA5OTJweCkge1xuXG4gICAgICAgICAgICAuaW50cm8ge1xuICAgICAgICAgICAgICBoZWlnaHQ6IDkxdmg7XG4gICAgICAgICAgICAgIG1pbi1oZWlnaHQ6IDcwMHB4O1xuICAgICAgICAgICAgICBtYXgtaGVpZ2h0OiA4MDBweDtcbiAgICAgICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICAgICAgICAgICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1hcm91bmQ7XG4gICAgICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgICAgIC5pbnRyby1oZWFkZXIge1xuICAgICAgICAgICAgICBtYXgtd2lkdGg6IDEwNTBweDtcbiAgICAgICAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAuaW50cm8taGVhZGVyLXRpdGxlIHtcbiAgICAgICAgICAgICAgdGV4dC1hbGlnbjogbGVmdDtcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgLmludHJvLWhlYWRlci1pbWFnZSB7XG4gICAgICAgICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgICAgICAgICBoZWlnaHQ6IDIyMHB4O1xuICAgICAgICAgICAgICB3aWR0aDogMTAwJTtcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgLmludHJvLWhlYWRlci1pbWFnZSBpbWcge1xuICAgICAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICAgICAgICAgIHotaW5kZXg6IC0xO1xuICAgICAgICAgICAgICBib3R0b206IDA7XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgICAgIC5pbnRyby1oZWFkZXItZGVzY3JpcHRpb24ge1xuICAgICAgICAgICAgICBjb2x1bW4tY291bnQ6IDI7XG4gICAgICAgICAgICAgIG1hcmdpbi10b3A6IDQwcHg7XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvaGVhZGVyPlxuICAgIClcbiAgfVxuXG59XG5cbmV4cG9ydCBkZWZhdWx0IEludHJvXG4iXX0= */\n/*@ sourceURL=/Users/dorachan/workspace/tamsenwedding/pages/_intro.js */"));
     }
   }]);
 
