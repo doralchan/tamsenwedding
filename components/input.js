@@ -55,6 +55,7 @@ class Input extends React.Component {
             box-shadow: none !important;
             border: 2px solid var(--color-gray);
             outline: none;
+            border-radius: 4px;
           }
           .input-text::placeholder {
             font-weight: 200;

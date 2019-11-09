@@ -28,7 +28,6 @@ class Button extends React.Component {
           }
           .btn {
             height: 60px;
-            font-weight: 500;
             font-size: inherit;
             border: 2px solid var(--color-coral-light);
             background-color: var(--color-coral-light);
@@ -37,6 +36,7 @@ class Button extends React.Component {
             box-sizing: border-box;
             min-width: 200px;
             position: relative;
+            border-radius: 4px;
             overflow: hidden;
           }
           .btn:focus {

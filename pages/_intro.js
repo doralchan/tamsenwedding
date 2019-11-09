@@ -46,7 +46,7 @@ class Intro extends React.Component {
           @media (min-width: 992px) {
 
             .intro {
-              height: 89vh;
+              height: 91vh;
               min-height: 700px;
               max-height: 800px;
               display: flex;

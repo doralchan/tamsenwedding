@@ -16,8 +16,12 @@ class List extends React.Component {
         <style jsx>{`
           .list {
             list-style: none;
-            margin: 4px 0;
             padding: 0;
+            margin: 32px 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
           }
         `}</style>
       </ul>
@@ -39,8 +43,11 @@ List.Item = class List extends React.Component {
       <li className={ itemClasses }>
         { this.props.children }
         <style jsx>{`
-          .list-item:before {
-            content: '';
+          .item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
           }
         `}</style>
       </li>

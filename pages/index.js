@@ -153,7 +153,7 @@ class Home extends React.Component {
             font-size: 2.441em;
           }
           h4 {
-            font-size: 1.25em;
+            font-size: 1.50em;
           }
           h5 {
             font-size: 1em;
@@ -219,7 +219,7 @@ class Home extends React.Component {
               font-size: 2.441em;
             }
             h5 {
-              font-size: 1.25em;
+              font-size: 1.50em;
             }
             h6 {
               font-size: 0.9em;

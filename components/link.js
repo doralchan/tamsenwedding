@@ -47,6 +47,7 @@ class Link extends React.Component {
           	position: relative;
           	overflow: hidden;
           	width: 100%;
+            border-radius: 4px;
             max-width: 260px;
           }
           .link-btn:before,

@@ -2,7 +2,7 @@ import ScrollTo from 'react-scroll-into-view';
 
 class Navigation extends React.Component {
   render() {
-    const navList = ['photos', 'travel', 'RSVP', 'registry'];
+    const navList = ['photos', 'travel', 'registry', 'RSVP'];
 
     return (
       <nav className='nav'>
@@ -27,6 +27,51 @@ class Navigation extends React.Component {
             cursor: pointer;
             font-weight: 400;
             color: var(--color-coral);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 60px;
+          }
+
+          .nav-list-item:nth-child(4) {
+            background-color: var(--color-coral-light);
+            border: 2px solid var(--color-coral-light);
+            color: var(--color-white);
+            text-rendering: optimizeLegibility;
+            box-sizing: border-box;
+            min-width: 120px;
+            border-radius: 4px;
+            position: relative;
+            overflow: hidden;
+          }
+
+          .nav-list-item:nth-child(4):before,
+          .nav-list-item:nth-child(4):after {
+            background-color: var(--color-coral);
+            content: '';
+            position: absolute;
+            z-index: -1;
+          }
+
+          .nav-list-item:nth-child(4):hover {
+            border-color: var(--color-coral);
+            cursor: pointer;
+            z-index: 2;
+          }
+
+          .nav-list-item:nth-child(4):after {
+            height: 100%;
+            left: -55%;
+            top: 0;
+            transform: skew(50deg);
+            transition-duration: 0.6s;
+            transform-origin: top left;
+            width: 0;
+          }
+
+          .nav-list-item:nth-child(4):hover:after {
+            height: 100%;
+            width: 150%;
           }
 
           @media (min-width: 992px) {

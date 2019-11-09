@@ -53,6 +53,7 @@ class TextArea extends React.Component {
             resize: none;
             border: 2px solid var(--color-gray);
             outline: none;
+            border-radius: 4px;
           }
           .input-textarea::placeholder {
             font-weight: 200;
