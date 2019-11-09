@@ -27,10 +27,15 @@ class Navigation extends React.Component {
             cursor: pointer;
             font-weight: 400;
             color: var(--color-coral);
+            height: 60px;
+          }
+
+          .nav-list-item div {
+            width: 100%;
+            height: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 60px;
           }
 
           .nav-list-item:nth-child(4) {
