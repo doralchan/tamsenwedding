@@ -71,7 +71,7 @@ class Navigation extends React.Component {
 
           .nav-list-item:nth-child(4):hover:after {
             height: 100%;
-            width: 150%;
+            width: 155%;
           }
 
           @media (min-width: 992px) {
