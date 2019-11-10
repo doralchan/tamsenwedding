@@ -29,7 +29,7 @@ class Intro extends React.Component {
           }
 
           .intro-header {
-            margin-top: 26vh;
+            margin-top: 25vh;
           }
 
           .intro-header-title {
@@ -37,7 +37,7 @@ class Intro extends React.Component {
           }
 
           .intro-header-image {
-            margin-bottom: 30vh;
+            margin-bottom: 32vh;
           }
 
           .intro-header-description {

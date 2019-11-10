@@ -20,6 +20,7 @@ class Footer extends React.Component {
             background-image: url(/static/icon_forest.svg);
             background-position: top center;
             background-repeat: repeat-x;
+            margin: 40px 0;
           }
 
           .footer-content {
@@ -32,6 +33,7 @@ class Footer extends React.Component {
             .footer-image {
               height: 160px;
               background-size: auto 160px,cover;
+              margin: 0;
             }
 
           }

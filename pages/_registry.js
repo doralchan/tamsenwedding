@@ -35,8 +35,8 @@ class Registry extends React.Component {
           }
 
           .registry h3 {
-            margin-top: 8px;
-            margin-bottom: 8px;
+            margin-top: 4px;
+            margin-bottom: 16px;
           }
 
           .registry-cta {
